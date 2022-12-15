@@ -1,0 +1,11 @@
+CRITICAL - 2022-11-03 23:49:36 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\accountModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\accountModel.php', 37)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\accountModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\accountModel')
+ 5 APPPATH\Controllers\User.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\accountModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\User->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

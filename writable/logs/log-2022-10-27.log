@@ -1,0 +1,204 @@
+CRITICAL - 2022-10-27 02:30:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\accountModel.php(33): CodeIgniter\Database\BaseConnection->query('SELECT oauth_users.first_name as firstname, oauth_users.last_name as lastname, oauth_users.username as id, oauth_users.email as email from oauth_users
+		where oauth_users.email = \'murhchris@gmail.com\'')
+ 3 APPPATH\Controllers\User.php(103): App\Models\accountModel->getInforAccount('murhchris@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('murhchris@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 02:30:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\resultModel.php(97): CodeIgniter\Database\BaseConnection->query('SELECT  
+        SUM(stock_merchandise.amount_by) as totalAmountBought
+		FROM  stock_merchandise, merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 AND
+        stock_merchandise.created_at >= \'2022-10-13\'
+		)')
+ 3 APPPATH\Controllers\lineInvoice.php(93): App\Models\resultModel->totalAmountby('2022-10-13')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-10-13')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 02:30:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `merchandise`
+WHERE `deleted` = :deleted:
+ORDER BY `id` DESC', [...], false)
+ 3 APPPATH\Models\merchandiseModel.php(45): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 4 APPPATH\Controllers\merchandise.php(24): App\Models\merchandiseModel->getAllRecords()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\merchandise->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\merchandise))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 02:30:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT `id_stock`, `id_merchandise`, `title`, `decrease`, `stock_merchandise`.`created_at`, `pu_by`, `amount_by`, `saler`, (pu_by*amount_by - decrease) as total_price
+FROM `stock_merchandise`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = :stock_merchandise.deleted:
+AND `merchandise`.`deleted` = :merchandise.deleted:
+ORDER BY `id_stock` DESC', [...], false)
+ 3 APPPATH\Models\stockModel.php(57): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 4 APPPATH\Controllers\stock_merchandise.php(26): App\Models\stockModel->getAllRecords()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 02:30:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `invoice`
+JOIN `stock_merchandise` ON `invoice`.`id_stock` = `stock_merchandise`.`id_stock`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = :stock_merchandise.deleted:
+AND `invoice`.`deleted` = :invoice.deleted:
+AND `merchandise`.`deleted` = :merchandise.deleted:', [...], false)
+ 3 APPPATH\Models\invoiceModel.php(73): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 4 APPPATH\Controllers\invoice.php(27): App\Models\invoiceModel->getAllRecords()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 02:30:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\line_InvoiceModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT lines_invoice.client, lines_invoice.id_line, lines_invoice.created_at, 
+		sum(invoice.pu_sale * invoice.amount_sale) AS totalprice, lines_invoice.decrease,
+		sum(invoice.pu_sale* invoice.amount_sale) - lines_invoice.decrease 
+		AS net_total_price 
+		FROM invoice,
+		lines_invoice WHERE (lines_invoice.deleted = 0 AND invoice.deleted = 0 
+		AND lines_invoice.id_line = invoice.id_line)
+		GROUP BY lines_invoice.id_line 
+		ORDER BY lines_invoice.id_line DESC')
+ 3 APPPATH\Controllers\lineInvoice.php(28): App\Models\line_InvoiceModel->getAllInvoices()
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 02:30:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\resultModel.php(57): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-27\'  ) ORDER BY lines_invoice.id_line DESC')
+ 3 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-27', 'ROOTPATH\\public')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 02:30:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `merchandise`
+WHERE `deleted` = :deleted:
+ORDER BY `id` DESC', [...], false)
+ 3 APPPATH\Models\merchandiseModel.php(45): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 4 APPPATH\Controllers\merchandise.php(24): App\Models\merchandiseModel->getAllRecords()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\merchandise->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\merchandise))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 02:30:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT `id_stock`, `id_merchandise`, `title`, `decrease`, `stock_merchandise`.`created_at`, `pu_by`, `amount_by`, `saler`, (pu_by*amount_by - decrease) as total_price
+FROM `stock_merchandise`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = :stock_merchandise.deleted:
+AND `merchandise`.`deleted` = :merchandise.deleted:
+ORDER BY `id_stock` DESC', [...], false)
+ 3 APPPATH\Models\stockModel.php(57): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 4 APPPATH\Controllers\stock_merchandise.php(26): App\Models\stockModel->getAllRecords()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 02:30:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\resultModel.php(97): CodeIgniter\Database\BaseConnection->query('SELECT  
+        SUM(stock_merchandise.amount_by) as totalAmountBought
+		FROM  stock_merchandise, merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 AND
+        stock_merchandise.created_at >= \'2022-10-13\'
+		)')
+ 3 APPPATH\Controllers\lineInvoice.php(93): App\Models\resultModel->totalAmountby('2022-10-13')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-10-13')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 02:31:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\accountModel.php(33): CodeIgniter\Database\BaseConnection->query('SELECT oauth_users.first_name as firstname, oauth_users.last_name as lastname, oauth_users.username as id, oauth_users.email as email from oauth_users
+		where oauth_users.email = \'murhchris@gmail.com\'')
+ 3 APPPATH\Controllers\User.php(103): App\Models\accountModel->getInforAccount('murhchris@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('murhchris@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 02:31:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\resultModel.php(97): CodeIgniter\Database\BaseConnection->query('SELECT  
+        SUM(stock_merchandise.amount_by) as totalAmountBought
+		FROM  stock_merchandise, merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 AND
+        stock_merchandise.created_at >= \'2022-10-13\'
+		)')
+ 3 APPPATH\Controllers\lineInvoice.php(93): App\Models\resultModel->totalAmountby('2022-10-13')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-10-13')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,414 @@
+CRITICAL - 2022-10-13 01:43:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS net_total_price 
+		FROM invoice,
+		lines_invoice WHERE (lines_invoice.de...' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT lines_invoice.client, lines_invoice.id_line, lines_invoice.created_at, 
+		sum(invoice.pu_sale * invoice.amount_sale) AS totalprice,lines_invoice.decrease,
+		sum(invoice.pu_sale* invoice.amount_sale) - lines_invoice.decrease, 
+		 
+		AS net_total_price 
+		FROM invoice,
+		lines_invoice WHERE (lines_invoice.deleted = 0 AND invoice.deleted = 0 
+		AND lines_invoice.id_line = invoice.id_line)
+		GROUP BY lines_invoice.id_line 
+		ORDER BY lines_invoice.created_at DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT lines_invoice.client, lines_invoice.id_line, lines_invoice.created_at, 
+		sum(invoice.pu_sale * invoice.amount_sale) AS totalprice,lines_invoice.decrease,
+		sum(invoice.pu_sale* invoice.amount_sale) - lines_invoice.decrease, 
+		 
+		AS net_total_price 
+		FROM invoice,
+		lines_invoice WHERE (lines_invoice.deleted = 0 AND invoice.deleted = 0 
+		AND lines_invoice.id_line = invoice.id_line)
+		GROUP BY lines_invoice.id_line 
+		ORDER BY lines_invoice.created_at DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT lines_invoice.client, lines_invoice.id_line, lines_invoice.created_at, 
+		sum(invoice.pu_sale * invoice.amount_sale) AS totalprice,lines_invoice.decrease,
+		sum(invoice.pu_sale* invoice.amount_sale) - lines_invoice.decrease, 
+		 
+		AS net_total_price 
+		FROM invoice,
+		lines_invoice WHERE (lines_invoice.deleted = 0 AND invoice.deleted = 0 
+		AND lines_invoice.id_line = invoice.id_line)
+		GROUP BY lines_invoice.id_line 
+		ORDER BY lines_invoice.created_at DESC')
+ 4 APPPATH\Models\line_InvoiceModel.php(41): CodeIgniter\Database\BaseConnection->query('SELECT lines_invoice.client, lines_invoice.id_line, lines_invoice.created_at, 
+		sum(invoice.pu_sale * invoice.amount_sale) AS totalprice,lines_invoice.decrease,
+		sum(invoice.pu_sale* invoice.amount_sale) - lines_invoice.decrease, 
+		 
+		AS net_total_price 
+		FROM invoice,
+		lines_invoice WHERE (lines_invoice.deleted = 0 AND invoice.deleted = 0 
+		AND lines_invoice.id_line = invoice.id_line)
+		GROUP BY lines_invoice.id_line 
+		ORDER BY lines_invoice.created_at DESC')
+ 5 APPPATH\Controllers\lineInvoice.php(28): App\Models\line_InvoiceModel->getAllInvoices()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:44:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS net_total_price 
+		FROM invoice,
+		lines_invoice WHERE (lines_invoice.de...' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT lines_invoice.client, lines_invoice.id_line, lines_invoice.created_at, 
+		sum(invoice.pu_sale * invoice.amount_sale) AS totalprice,
+		sum(invoice.pu_sale* invoice.amount_sale) - lines_invoice.decrease,  
+		AS net_total_price 
+		FROM invoice,
+		lines_invoice WHERE (lines_invoice.deleted = 0 AND invoice.deleted = 0 
+		AND lines_invoice.id_line = invoice.id_line)
+		GROUP BY lines_invoice.id_line 
+		ORDER BY lines_invoice.created_at DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT lines_invoice.client, lines_invoice.id_line, lines_invoice.created_at, 
+		sum(invoice.pu_sale * invoice.amount_sale) AS totalprice,
+		sum(invoice.pu_sale* invoice.amount_sale) - lines_invoice.decrease,  
+		AS net_total_price 
+		FROM invoice,
+		lines_invoice WHERE (lines_invoice.deleted = 0 AND invoice.deleted = 0 
+		AND lines_invoice.id_line = invoice.id_line)
+		GROUP BY lines_invoice.id_line 
+		ORDER BY lines_invoice.created_at DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT lines_invoice.client, lines_invoice.id_line, lines_invoice.created_at, 
+		sum(invoice.pu_sale * invoice.amount_sale) AS totalprice,
+		sum(invoice.pu_sale* invoice.amount_sale) - lines_invoice.decrease,  
+		AS net_total_price 
+		FROM invoice,
+		lines_invoice WHERE (lines_invoice.deleted = 0 AND invoice.deleted = 0 
+		AND lines_invoice.id_line = invoice.id_line)
+		GROUP BY lines_invoice.id_line 
+		ORDER BY lines_invoice.created_at DESC')
+ 4 APPPATH\Models\line_InvoiceModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT lines_invoice.client, lines_invoice.id_line, lines_invoice.created_at, 
+		sum(invoice.pu_sale * invoice.amount_sale) AS totalprice,
+		sum(invoice.pu_sale* invoice.amount_sale) - lines_invoice.decrease,  
+		AS net_total_price 
+		FROM invoice,
+		lines_invoice WHERE (lines_invoice.deleted = 0 AND invoice.deleted = 0 
+		AND lines_invoice.id_line = invoice.id_line)
+		GROUP BY lines_invoice.id_line 
+		ORDER BY lines_invoice.created_at DESC')
+ 5 APPPATH\Controllers\lineInvoice.php(28): App\Models\line_InvoiceModel->getAllInvoices()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:51:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\line_InvoiceModel.php on line 69.
+ 1 APPPATH\Controllers\lineInvoice.php(72): App\Models\line_InvoiceModel->getInlineInfo('1')
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getInlineInfo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:52:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\line_InvoiceModel.php on line 69.
+ 1 APPPATH\Controllers\lineInvoice.php(72): App\Models\line_InvoiceModel->getInlineInfo('1')
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getInlineInfo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:54:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\line_InvoiceModel.php on line 69.
+ 1 APPPATH\Controllers\lineInvoice.php(72): App\Models\line_InvoiceModel->getInlineInfo('1')
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getInlineInfo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:27:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:28:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:30:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:30:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:32:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:33:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:33:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:33:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:35:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:40:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:40:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:45:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:49:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:49:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(49): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:13:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(48): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:13:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(48): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:14:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(48): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:14:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(48): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:15:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(48): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:15:45 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\lineInvoice.php(48): CodeIgniter\Model->__call('addlineinvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:18:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\line_InvoiceModel.php(22): CodeIgniter\Model->__get('tableMerchandise')
+ 4 APPPATH\Controllers\lineInvoice.php(48): App\Models\line_InvoiceModel->addlineinvoice([...])
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:18:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\line_InvoiceModel.php(22): CodeIgniter\Model->__get('tableMerchandise')
+ 4 APPPATH\Controllers\lineInvoice.php(48): App\Models\line_InvoiceModel->addlineinvoice([...])
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:18:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\line_InvoiceModel.php(22): CodeIgniter\Model->__get('tableMerchandise')
+ 4 APPPATH\Controllers\lineInvoice.php(48): App\Models\line_InvoiceModel->addlineinvoice([...])
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:20:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\line_InvoiceModel.php(23): CodeIgniter\Model->__get('tableMerchandise')
+ 4 APPPATH\Controllers\lineInvoice.php(48): App\Models\line_InvoiceModel->addlineinvoice([...])
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:21:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\line_InvoiceModel.php(23): CodeIgniter\Model->__get('tableMerchandise')
+ 4 APPPATH\Controllers\lineInvoice.php(48): App\Models\line_InvoiceModel->addlineinvoice([...])
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:24:44 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(id) FROM lines_invoice', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(id) FROM lines_invoice')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(id) FROM lines_invoice')
+ 4 APPPATH\Models\line_InvoiceModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT MAX(id) FROM lines_invoice')
+ 5 APPPATH\Controllers\lineInvoice.php(49): App\Models\line_InvoiceModel->getLastId()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:24:56 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(id) FROM lines_invoice', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(id) FROM lines_invoice')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(id) FROM lines_invoice')
+ 4 APPPATH\Models\line_InvoiceModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT MAX(id) FROM lines_invoice')
+ 5 APPPATH\Controllers\lineInvoice.php(49): App\Models\line_InvoiceModel->getLastId()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 05:25:21 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(id) FROM lines_invoice', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(id) FROM lines_invoice')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(id) FROM lines_invoice')
+ 4 APPPATH\Models\line_InvoiceModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT MAX(id) FROM lines_invoice')
+ 5 APPPATH\Controllers\lineInvoice.php(49): App\Models\line_InvoiceModel->getLastId()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->create()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 06:03:53 --> FUNCTION humanapp.SU does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SU(stock_merchandise.id_stock -invoice.id_stock) as amount_remaining
+FROM `invoice`
+JOIN `stock_merchandise` ON `invoice`.`id_stock` = `stock_merchandise`.`id_stock`
+WHERE `stock_merchandise`.`deleted` = 0
+AND `invoice`.`deleted` = 0
+AND `invoice`.`id_stock` = \'5\'
+GROUP BY `invoice`.`id_stock`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SU(stock_merchandise.id_stock -invoice.id_stock) as amount_remaining
+FROM `invoice`
+JOIN `stock_merchandise` ON `invoice`.`id_stock` = `stock_merchandise`.`id_stock`
+WHERE `stock_merchandise`.`deleted` = 0
+AND `invoice`.`deleted` = 0
+AND `invoice`.`id_stock` = \'5\'
+GROUP BY `invoice`.`id_stock`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SU(stock_merchandise.id_stock -invoice.id_stock) as amount_remaining
+FROM `invoice`
+JOIN `stock_merchandise` ON `invoice`.`id_stock` = `stock_merchandise`.`id_stock`
+WHERE `stock_merchandise`.`deleted` = 0
+AND `invoice`.`deleted` = 0
+AND `invoice`.`id_stock` = \'5\'
+GROUP BY `invoice`.`id_stock`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT SU(stock_merchandise.id_stock -invoice.id_stock) as amount_remaining
+FROM `invoice`
+JOIN `stock_merchandise` ON `invoice`.`id_stock` = `stock_merchandise`.`id_stock`
+WHERE `stock_merchandise`.`deleted` = :stock_merchandise.deleted:
+AND `invoice`.`deleted` = :invoice.deleted:
+AND `invoice`.`id_stock` = :invoice.id_stock:
+GROUP BY `invoice`.`id_stock`', [...], false)
+ 5 APPPATH\Models\invoiceModel.php(51): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Controllers\invoice.php(61): App\Models\invoiceModel->verifyAmount('5')
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

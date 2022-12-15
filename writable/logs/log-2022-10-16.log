@@ -1,0 +1,373 @@
+CRITICAL - 2022-10-16 10:46:59 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 69.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(69): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(18): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-16 13:28:18 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 69.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(69): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(18): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-16 13:33:15 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 69.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(69): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(18): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-16 23:32:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT  
+        SUM((stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  
+        SUM((stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  
+        SUM((stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		')
+ 4 APPPATH\Models\resultModel.php(97): CodeIgniter\Database\BaseConnection->query('SELECT  
+        SUM((stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		')
+ 5 APPPATH\Controllers\lineInvoice.php(92): App\Models\resultModel->totalAmountby('2022-10-14')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->totalAmountby('2022-10-14')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-16 23:33:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT  
+        SUM((stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  
+        SUM((stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  
+        SUM((stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		')
+ 4 APPPATH\Models\resultModel.php(97): CodeIgniter\Database\BaseConnection->query('SELECT  
+        SUM((stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		')
+ 5 APPPATH\Controllers\lineInvoice.php(92): App\Models\resultModel->totalAmountby('\'2022-10-14\'')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->totalAmountby('\'2022-10-14\'')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-16 23:33:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT  
+        SUM((stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  
+        SUM((stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  
+        SUM((stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		)')
+ 4 APPPATH\Models\resultModel.php(97): CodeIgniter\Database\BaseConnection->query('SELECT  
+        SUM((stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		)')
+ 5 APPPATH\Controllers\lineInvoice.php(92): App\Models\resultModel->totalAmountby('\'2022-10-14\'')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->totalAmountby('\'2022-10-14\'')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-16 23:33:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_m...' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		)')
+ 4 APPPATH\Models\resultModel.php(97): CodeIgniter\Database\BaseConnection->query('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		)')
+ 5 APPPATH\Controllers\lineInvoice.php(92): App\Models\resultModel->totalAmountby('\'2022-10-14\'')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->totalAmountby('\'2022-10-14\'')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-16 23:34:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_m...' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		)')
+ 4 APPPATH\Models\resultModel.php(98): CodeIgniter\Database\BaseConnection->query('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by,
+		FROM  stock_merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 and
+		)')
+ 5 APPPATH\Controllers\lineInvoice.php(92): App\Models\resultModel->totalAmountby('\'2022-10-14\'')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->totalAmountby('\'2022-10-14\'')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-16 23:37:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2022-10-14''
+		)' at line 8
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by
+		FROM  stock_merchandise, merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 AND
+        stock_merchandise.created_at >\'\'2022-10-14\'\'
+		)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by
+		FROM  stock_merchandise, merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 AND
+        stock_merchandise.created_at >\'\'2022-10-14\'\'
+		)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by
+		FROM  stock_merchandise, merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 AND
+        stock_merchandise.created_at >\'\'2022-10-14\'\'
+		)')
+ 4 APPPATH\Models\resultModel.php(98): CodeIgniter\Database\BaseConnection->query('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by
+		FROM  stock_merchandise, merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 AND
+        stock_merchandise.created_at >\'\'2022-10-14\'\'
+		)')
+ 5 APPPATH\Controllers\lineInvoice.php(92): App\Models\resultModel->totalAmountby('\'2022-10-14\'')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->totalAmountby('\'2022-10-14\'')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-16 23:37:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2022-10-14''
+		)' at line 8
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by
+		FROM  stock_merchandise, merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 AND
+        stock_merchandise.created_at > \'\'2022-10-14\'\'
+		)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by
+		FROM  stock_merchandise, merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 AND
+        stock_merchandise.created_at > \'\'2022-10-14\'\'
+		)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by
+		FROM  stock_merchandise, merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 AND
+        stock_merchandise.created_at > \'\'2022-10-14\'\'
+		)')
+ 4 APPPATH\Models\resultModel.php(98): CodeIgniter\Database\BaseConnection->query('SELECT  
+        SUM(stock_merchandise.amount_by) as price_by
+		FROM  stock_merchandise, merchandise
+		where( 
+		merchandise.id = stock_merchandise.id_merchandise and
+		stock_merchandise.deleted = 0 and 
+		merchandise.deleted = 0 AND
+        stock_merchandise.created_at > \'\'2022-10-14\'\'
+		)')
+ 5 APPPATH\Controllers\lineInvoice.php(92): App\Models\resultModel->totalAmountby('\'2022-10-14\'')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->totalAmountby('\'2022-10-14\'')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-16 23:54:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 9
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 		 		
+		MAX((invoice.pu_sale * invoice.amount_sale) - (stock_merchandise.pu_by * invoice.amount_sale)) as result 
+		FROM lines_invoice, stock_merchandise, merchandise, invoice where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise and 
+		lines_invoice.created_at >= \'2022-10-14\'
+		', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 		 		
+		MAX((invoice.pu_sale * invoice.amount_sale) - (stock_merchandise.pu_by * invoice.amount_sale)) as result 
+		FROM lines_invoice, stock_merchandise, merchandise, invoice where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise and 
+		lines_invoice.created_at >= \'2022-10-14\'
+		')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 		 		
+		MAX((invoice.pu_sale * invoice.amount_sale) - (stock_merchandise.pu_by * invoice.amount_sale)) as result 
+		FROM lines_invoice, stock_merchandise, merchandise, invoice where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise and 
+		lines_invoice.created_at >= \'2022-10-14\'
+		')
+ 4 APPPATH\Models\resultModel.php(124): CodeIgniter\Database\BaseConnection->query('SELECT 		 		
+		MAX((invoice.pu_sale * invoice.amount_sale) - (stock_merchandise.pu_by * invoice.amount_sale)) as result 
+		FROM lines_invoice, stock_merchandise, merchandise, invoice where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise and 
+		lines_invoice.created_at >= \'2022-10-14\'
+		')
+ 5 APPPATH\Controllers\lineInvoice.php(96): App\Models\resultModel->highSoldAchieved('2022-10-14')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-10-14')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

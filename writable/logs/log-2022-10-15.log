@@ -1,0 +1,1094 @@
+CRITICAL - 2022-10-15 04:18:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '05')' at line 13
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'\'05\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'\'05\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'\'05\')')
+ 4 APPPATH\Models\resultModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'\'05\')')
+ 5 APPPATH\Controllers\lineInvoice.php(75): App\Models\resultModel->getResultInvoices('\'05', '10')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices('\'05', '10', '2022\'')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 04:18:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '05')' at line 13
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'\'05\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'\'05\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'\'05\')')
+ 4 APPPATH\Models\resultModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'\'05\')')
+ 5 APPPATH\Controllers\lineInvoice.php(75): App\Models\resultModel->getResultInvoices('\'05', '10')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices('\'05', '10', '2022\'')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 04:36:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 13
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'18/10/2022\') and stock_merchandise.id_merchandise = 9 )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'18/10/2022\') and stock_merchandise.id_merchandise = 9 )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'18/10/2022\') and stock_merchandise.id_merchandise = 9 )')
+ 4 APPPATH\Models\resultModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'18/10/2022\') and stock_merchandise.id_merchandise = 9 )')
+ 5 APPPATH\Controllers\lineInvoice.php(80): App\Models\resultModel->getResultInvoices('18/10/2022', '9')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 04:39:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 13
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'1/10/2022\') )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'1/10/2022\') )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'1/10/2022\') )')
+ 4 APPPATH\Models\resultModel.php(46): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'1/10/2022\') )')
+ 5 APPPATH\Controllers\lineInvoice.php(80): App\Models\resultModel->getResultInvoices('1/10/2022', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 04:39:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 13
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'1/10/2022\') )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'1/10/2022\') )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'1/10/2022\') )')
+ 4 APPPATH\Models\resultModel.php(46): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= \'1/10/2022\') )')
+ 5 APPPATH\Controllers\lineInvoice.php(80): App\Models\resultModel->getResultInvoices('1/10/2022', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 04:49:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '12:00:00  )' at line 13
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= 2022/Oct/10 12:00:00  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= 2022/Oct/10 12:00:00  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= 2022/Oct/10 12:00:00  )')
+ 4 APPPATH\Models\resultModel.php(46): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= 2022/Oct/10 12:00:00  )')
+ 5 APPPATH\Controllers\lineInvoice.php(80): App\Models\resultModel->getResultInvoices('2022/Oct/10 12:00:00', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 04:50:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Dec/31 06:00:00  )' at line 13
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= 1969/Dec/31 06:00:00  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= 1969/Dec/31 06:00:00  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= 1969/Dec/31 06:00:00  )')
+ 4 APPPATH\Models\resultModel.php(46): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by, stock_merchandise.amount_by,
+        stock_merchandise.pu_by * stock_merchandise.amount_by as price_by, 
+        invoice.pu_sale, invoice.amount_sale,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and 
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and lines_invoice.created_at >= 1969/Dec/31 06:00:00  )')
+ 5 APPPATH\Controllers\lineInvoice.php(80): App\Models\resultModel->getResultInvoices('1969/Dec/31 06:00:00', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 04:56:39 --> A non well formed numeric value encountered
+in APPPATH\Controllers\lineInvoice.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Controllers\\lineInvoice.php', 78, [...])
+ 2 APPPATH\Controllers\lineInvoice.php(78): date('Y-M-d h:i:s', '15/10/2022')
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 06:13:57 --> Unknown column 'invoice.amount_by' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        (stock_merchandise.pu_by * invoice.amount_by) as price_by,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        (stock_merchandise.pu_by * invoice.amount_by) as price_by,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        (stock_merchandise.pu_by * invoice.amount_by) as price_by,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 4 APPPATH\Models\resultModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        (stock_merchandise.pu_by * invoice.amount_by) as price_by,
+		invoice.pu_sale * invoice.amount_sale as price_sale,		
+		(invoice.pu_sale * invoice.amount_sale - stock_merchandise.pu_by * stock_merchandise.amount_by) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where(
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 5 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-14', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 14
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice 
+
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise ) and  lines_invoice.created_at >= \'2022-10-15\'  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice 
+
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise ) and  lines_invoice.created_at >= \'2022-10-15\'  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice 
+
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise ) and  lines_invoice.created_at >= \'2022-10-15\'  )')
+ 4 APPPATH\Models\resultModel.php(46): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice 
+
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise ) and  lines_invoice.created_at >= \'2022-10-15\'  )')
+ 5 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-15', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:22:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 14
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice 
+
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise ) and  lines_invoice.created_at >= \'2022-10-14\'  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice 
+
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise ) and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice 
+
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise ) and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 4 APPPATH\Models\resultModel.php(46): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice 
+
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise ) and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 5 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-14', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:32:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		.(invoice.p...' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        .((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		.(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		.((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice 
+
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        .((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		.(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		.((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice 
+
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        .((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		.(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		.((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice 
+
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 4 APPPATH\Models\resultModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        .((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		.(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		.((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result
+		FROM lines_invoice, stock_merchandise, merchandise, invoice 
+
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 5 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-14', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:40:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and  lines_invoice.created_at >= '2022-10-14'  )' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result and  lines_invoice.created_at >= \'2022-10-14\'  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 4 APPPATH\Models\resultModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 5 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-14', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:41:58 --> Undefined variable: FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise 
+in APPPATH\Models\resultModel.php on line 49.
+ 1 APPPATH\Models\resultModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise ', 'APPPATH\\Models\\resultModel.php', 49, [...])
+ 2 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-14', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:42:22 --> Undefined variable:  FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise 
+in APPPATH\Models\resultModel.php on line 49.
+ 1 APPPATH\Models\resultModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable:  FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise ', 'APPPATH\\Models\\resultModel.php', 49, [...])
+ 2 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-14', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:43:53 --> Undefined variable:  FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise 
+in APPPATH\Models\resultModel.php on line 49.
+ 1 APPPATH\Models\resultModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable:  FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise ', 'APPPATH\\Models\\resultModel.php', 49, [...])
+ 2 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-14', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:44:12 --> Undefined variable:  FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise 
+in APPPATH\Models\resultModel.php on line 49.
+ 1 APPPATH\Models\resultModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable:  FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise ', 'APPPATH\\Models\\resultModel.php', 49, [...])
+ 2 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-14', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:44:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		inv...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 4 APPPATH\Models\resultModel.php(66): CodeIgniter\Database\BaseConnection->query(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 5 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-14', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:44:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		inv...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 4 APPPATH\Models\resultModel.php(65): CodeIgniter\Database\BaseConnection->query(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 5 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-14', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:45:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		inv...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 4 APPPATH\Models\resultModel.php(67): CodeIgniter\Database\BaseConnection->query(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 5 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-14', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:46:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		inv...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 4 APPPATH\Models\resultModel.php(67): CodeIgniter\Database\BaseConnection->query(' FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-10-14\'  )')
+ 5 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('2022-10-14', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:53:11 --> Unknown column 'undefined' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'undefined\'  and stock_merchandise.id_merchandise = undefined  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'undefined\'  and stock_merchandise.id_merchandise = undefined  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'undefined\'  and stock_merchandise.id_merchandise = undefined  )')
+ 4 APPPATH\Models\resultModel.php(63): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'undefined\'  and stock_merchandise.id_merchandise = undefined  )')
+ 5 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('undefined', 'undefined')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:53:12 --> Unknown column 'undefined' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'undefined\'  and stock_merchandise.id_merchandise = undefined  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'undefined\'  and stock_merchandise.id_merchandise = undefined  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'undefined\'  and stock_merchandise.id_merchandise = undefined  )')
+ 4 APPPATH\Models\resultModel.php(63): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'undefined\'  and stock_merchandise.id_merchandise = undefined  )')
+ 5 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('undefined', 'undefined')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:53:13 --> Unknown column 'undefined' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'undefined\'  and stock_merchandise.id_merchandise = undefined  )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'undefined\'  and stock_merchandise.id_merchandise = undefined  )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'undefined\'  and stock_merchandise.id_merchandise = undefined  )')
+ 4 APPPATH\Models\resultModel.php(63): CodeIgniter\Database\BaseConnection->query('SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'undefined\'  and stock_merchandise.id_merchandise = undefined  )')
+ 5 APPPATH\Controllers\lineInvoice.php(77): App\Models\resultModel->getResultInvoices('undefined', 'undefined')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getResultInvoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

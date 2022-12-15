@@ -1,0 +1,345 @@
+CRITICAL - 2022-10-14 02:03:07 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 APPPATH\Controllers\invoice.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 02:05:13 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 APPPATH\Controllers\invoice.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 02:05:16 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 APPPATH\Controllers\invoice.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 02:06:52 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 APPPATH\Controllers\invoice.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 02:07:09 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 APPPATH\Controllers\invoice.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 02:07:11 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 APPPATH\Controllers\invoice.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 02:07:13 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 APPPATH\Controllers\invoice.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 02:07:33 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 APPPATH\Controllers\invoice.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 02:07:35 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 APPPATH\Controllers\invoice.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 02:07:47 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 APPPATH\Controllers\invoice.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:32:00 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...], false)
+ 6 APPPATH\Models\invoiceModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\invoice.php(52): App\Models\invoiceModel->addinvoice([...])
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:32:10 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 45.
+ 1 APPPATH\Controllers\invoice.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:33:27 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 45.
+ 1 APPPATH\Controllers\invoice.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:34:06 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 45.
+ 1 APPPATH\Controllers\invoice.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:35:32 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 45.
+ 1 APPPATH\Controllers\invoice.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:35:45 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 45.
+ 1 APPPATH\Controllers\invoice.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:39:14 --> A non-numeric value encountered
+in APPPATH\Controllers\invoice.php on line 45.
+ 1 APPPATH\Controllers\invoice.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\invoice.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:44:29 --> Call to undefined function PHPSTORM_META\type()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:44:43 --> Call to undefined function PHPSTORM_META\type()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:58:02 --> Undefined property: stdClass::$valamount_sale
+in APPPATH\Controllers\invoice.php on line 54.
+ 1 APPPATH\Controllers\invoice.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$valamount_sale', 'APPPATH\\Controllers\\invoice.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:58:16 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 APPPATH\Controllers\invoice.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:58:45 --> Undefined property: stdClass::$valamount_sale
+in APPPATH\Controllers\invoice.php on line 54.
+ 1 APPPATH\Controllers\invoice.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$valamount_sale', 'APPPATH\\Controllers\\invoice.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:58:48 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 47.
+ 1 APPPATH\Controllers\invoice.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 04:59:11 --> Undefined property: stdClass::$valamount_sale
+in APPPATH\Controllers\invoice.php on line 54.
+ 1 APPPATH\Controllers\invoice.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$valamount_sale', 'APPPATH\\Controllers\\invoice.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:00:11 --> Undefined property: stdClass::$valamount_sale
+in APPPATH\Controllers\invoice.php on line 54.
+ 1 APPPATH\Controllers\invoice.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$valamount_sale', 'APPPATH\\Controllers\\invoice.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:00:18 --> Undefined property: stdClass::$valamount_sale
+in APPPATH\Controllers\invoice.php on line 54.
+ 1 APPPATH\Controllers\invoice.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$valamount_sale', 'APPPATH\\Controllers\\invoice.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:02:14 --> Undefined property: stdClass::$valamount_sale
+in APPPATH\Controllers\invoice.php on line 54.
+ 1 APPPATH\Controllers\invoice.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$valamount_sale', 'APPPATH\\Controllers\\invoice.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:07:04 --> Undefined property: stdClass::$valamount_sale
+in APPPATH\Controllers\invoice.php on line 54.
+ 1 APPPATH\Controllers\invoice.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$valamount_sale', 'APPPATH\\Controllers\\invoice.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:07:10 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 48.
+ 1 APPPATH\Controllers\invoice.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:07:33 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 48.
+ 1 APPPATH\Controllers\invoice.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:10:29 --> Undefined property: stdClass::$valamount_sale
+in APPPATH\Controllers\invoice.php on line 54.
+ 1 APPPATH\Controllers\invoice.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$valamount_sale', 'APPPATH\\Controllers\\invoice.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:11:00 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 48.
+ 1 APPPATH\Controllers\invoice.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:11:15 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\invoice.php on line 48.
+ 1 APPPATH\Controllers\invoice.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\invoice.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:12:39 --> Undefined property: stdClass::$valamount_sale
+in APPPATH\Controllers\invoice.php on line 56.
+ 1 APPPATH\Controllers\invoice.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$valamount_sale', 'APPPATH\\Controllers\\invoice.php', 56, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:12:56 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...], false)
+ 6 APPPATH\Models\invoiceModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\invoice.php(59): App\Models\invoiceModel->addinvoice([...])
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:16:07 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...], false)
+ 6 APPPATH\Models\invoiceModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\invoice.php(59): App\Models\invoiceModel->addinvoice([...])
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:17:03 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...], false)
+ 6 APPPATH\Models\invoiceModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\invoice.php(59): App\Models\invoiceModel->addinvoice([...])
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:29:37 --> Column 'id_line' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (NULL, 7, NULL, 3, 3, 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (NULL, 7, NULL, 3, 3, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (NULL, 7, NULL, 3, 3, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...], false)
+ 5 APPPATH\Models\invoiceModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\invoice.php(56): App\Models\invoiceModel->addinvoice([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 05:33:19 --> Column 'id_line' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (NULL, 7, NULL, 3, 3, 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (NULL, 7, NULL, 3, 3, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (NULL, 7, NULL, 3, 3, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `invoice` (`id_invoice`, `id_stock`, `id_line`, `pu_sale`, `amount_sale`, `deleted`) VALUES (:id_invoice:, :id_stock:, :id_line:, :pu_sale:, :amount_sale:, :deleted:)', [...], false)
+ 5 APPPATH\Models\invoiceModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\invoice.php(56): App\Models\invoiceModel->addinvoice([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\invoice->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-14 12:40:22 --> Unknown column 'pu_sale*amount_sale' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `title`, `pu_sale`, `amount_sale`, `pu_sale*amount_sale` as `pt`
+FROM `invoice`
+JOIN `stock_merchandise` ON `invoice`.`id_stock` = `stock_merchandise`.`id_stock`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = 0
+AND `invoice`.`deleted` = 0
+AND `merchandise`.`deleted` = 0
+AND `invoice`.`id_line` = \'69\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`, `pu_sale`, `amount_sale`, `pu_sale*amount_sale` as `pt`
+FROM `invoice`
+JOIN `stock_merchandise` ON `invoice`.`id_stock` = `stock_merchandise`.`id_stock`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = 0
+AND `invoice`.`deleted` = 0
+AND `merchandise`.`deleted` = 0
+AND `invoice`.`id_line` = \'69\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`, `pu_sale`, `amount_sale`, `pu_sale*amount_sale` as `pt`
+FROM `invoice`
+JOIN `stock_merchandise` ON `invoice`.`id_stock` = `stock_merchandise`.`id_stock`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = 0
+AND `invoice`.`deleted` = 0
+AND `merchandise`.`deleted` = 0
+AND `invoice`.`id_line` = \'69\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT `title`, `pu_sale`, `amount_sale`, `pu_sale*amount_sale` as `pt`
+FROM `invoice`
+JOIN `stock_merchandise` ON `invoice`.`id_stock` = `stock_merchandise`.`id_stock`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = :stock_merchandise.deleted:
+AND `invoice`.`deleted` = :invoice.deleted:
+AND `merchandise`.`deleted` = :merchandise.deleted:
+AND `invoice`.`id_line` = :invoice.id_line:', [...], false)
+ 5 APPPATH\Models\line_InvoiceModel.php(65): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Controllers\lineInvoice.php(62): App\Models\line_InvoiceModel->getInvoiceInfo('69')
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->getInvoiceInfo('69')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

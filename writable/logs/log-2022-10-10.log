@@ -1,0 +1,414 @@
+CRITICAL - 2022-10-10 04:03:39 --> Unknown column 'create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Achat au comptant\', \'24\', \'10\', \'2\', \'Shalina\', \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Achat au comptant\', \'24\', \'10\', \'2\', \'Shalina\', \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Achat au comptant\', \'24\', \'10\', \'2\', \'Shalina\', \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :create_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(49): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 04:04:14 --> Unknown column 'create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Achat au comptant\', \'24\', \'10\', \'2\', \'Shalina\', \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Achat au comptant\', \'24\', \'10\', \'2\', \'Shalina\', \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Achat au comptant\', \'24\', \'10\', \'2\', \'Shalina\', \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :create_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(49): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 04:05:32 --> Unknown column 'create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'11\', \'Achat \', \'3\', \'2\', \'2\', \'Dar-salem\', \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'11\', \'Achat \', \'3\', \'2\', \'2\', \'Dar-salem\', \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'11\', \'Achat \', \'3\', \'2\', \'2\', \'Dar-salem\', \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :create_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(49): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 04:07:15 --> Unknown column 'create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'13\', \'Achat pour le transport des matières\', \'23\', \'4\', \'2\', \'Shalina\', \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'13\', \'Achat pour le transport des matières\', \'23\', \'4\', \'2\', \'Shalina\', \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'13\', \'Achat pour le transport des matières\', \'23\', \'4\', \'2\', \'Shalina\', \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :create_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(49): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 04:09:14 --> Unknown column 'create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Achat\', \'20\', \'2\', \'3\', \'Dar-salem\', \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Achat\', \'20\', \'2\', \'3\', \'Dar-salem\', \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Achat\', \'20\', \'2\', \'3\', \'Dar-salem\', \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :create_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(48): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 04:10:24 --> Unknown column 'create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Achat\', \'20\', \'2\', \'3\', \'Dar-salem\', \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Achat\', \'20\', \'2\', \'3\', \'Dar-salem\', \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Achat\', \'20\', \'2\', \'3\', \'Dar-salem\', \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :create_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(48): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 04:12:54 --> Unknown column 'create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'vbvb\', \'2\', \'3\', \'3\', \'Shalina\', \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'vbvb\', \'2\', \'3\', \'3\', \'Shalina\', \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'vbvb\', \'2\', \'3\', \'3\', \'Shalina\', \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :create_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(48): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 04:40:30 --> Unknown column 'create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'11\', \'Achat\', \'30\', \'3\', \'4\', \'Bralima\', \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'11\', \'Achat\', \'30\', \'3\', \'4\', \'Bralima\', \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'11\', \'Achat\', \'30\', \'3\', \'4\', \'Bralima\', \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :create_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(48): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 04:45:02 --> Unknown column 'create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Christ\', \'4\', \'12\', \'12\', \'Shalina\', \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Christ\', \'4\', \'12\', \'12\', \'Shalina\', \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, \'12\', \'Christ\', \'4\', \'12\', \'12\', \'Shalina\', \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :create_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(48): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 04:45:16 --> Unknown column 'create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `create_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :create_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(48): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 04:45:50 --> Column 'id_merchandise' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `created_at`, `deleted`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `created_at`, `deleted`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `created_at`, `deleted`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `created_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :created_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(48): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 04:45:55 --> Column 'id_merchandise' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `created_at`, `deleted`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `created_at`, `deleted`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `created_at`, `deleted`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `created_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :created_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(48): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 04:45:56 --> Column 'id_merchandise' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `created_at`, `deleted`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'2022-10-10 00:00:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `created_at`, `deleted`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'2022-10-10 00:00:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `created_at`, `deleted`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'2022-10-10 00:00:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `stock_merchandise` (`id_stock`, `id_merchandise`, `description`, `pu_by`, `amount_by`, `decrease`, `saler`, `created_at`, `deleted`) VALUES (:id_stock:, :id_merchandise:, :description:, :pu_by:, :amount_by:, :decrease:, :saler:, :created_at:, :deleted:)', [...], false)
+ 5 APPPATH\Models\stockModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(48): App\Models\stockModel->addStock([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 05:09:58 --> Undefined property: App\Controllers\stock_merchandise::$merchandiseModel
+in APPPATH\Controllers\stock_merchandise.php on line 91.
+ 1 APPPATH\Controllers\stock_merchandise.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\stock_merchandise::$merchandiseModel', 'APPPATH\\Controllers\\stock_merchandise.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->delete('5')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 05:10:23 --> Undefined property: App\Controllers\stock_merchandise::$merchandiseModel
+in APPPATH\Controllers\stock_merchandise.php on line 91.
+ 1 APPPATH\Controllers\stock_merchandise.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\stock_merchandise::$merchandiseModel', 'APPPATH\\Controllers\\stock_merchandise.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->delete('5')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 05:18:32 --> Undefined property: App\Controllers\stock_merchandise::$deleteRecord
+in APPPATH\Controllers\stock_merchandise.php on line 95.
+ 1 APPPATH\Controllers\stock_merchandise.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\stock_merchandise::$deleteRecord', 'APPPATH\\Controllers\\stock_merchandise.php', 95, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->delete('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 05:18:40 --> Undefined property: App\Controllers\stock_merchandise::$deleteRecord
+in APPPATH\Controllers\stock_merchandise.php on line 95.
+ 1 APPPATH\Controllers\stock_merchandise.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\stock_merchandise::$deleteRecord', 'APPPATH\\Controllers\\stock_merchandise.php', 95, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->delete('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 05:19:40 --> Unknown column 'stock_merchandise.create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_stock`, `id_merchandise`, `title`, `decrease`, `stock_merchandise`.`create_at`, `pu_by`, `amount_by`, (pu_by*amount_by) as pta
+FROM `stock_merchandise`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = 0
+AND `merchandise`.`deleted` = 0
+AND `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_stock`, `id_merchandise`, `title`, `decrease`, `stock_merchandise`.`create_at`, `pu_by`, `amount_by`, (pu_by*amount_by) as pta
+FROM `stock_merchandise`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = 0
+AND `merchandise`.`deleted` = 0
+AND `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_stock`, `id_merchandise`, `title`, `decrease`, `stock_merchandise`.`create_at`, `pu_by`, `amount_by`, (pu_by*amount_by) as pta
+FROM `stock_merchandise`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = 0
+AND `merchandise`.`deleted` = 0
+AND `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT `id_stock`, `id_merchandise`, `title`, `decrease`, `stock_merchandise`.`create_at`, `pu_by`, `amount_by`, (pu_by*amount_by) as pta
+FROM `stock_merchandise`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = :stock_merchandise.deleted:
+AND `merchandise`.`deleted` = :merchandise.deleted:
+AND `id` = :id:', [...], false)
+ 5 APPPATH\Models\stockModel.php(39): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(94): App\Models\stockModel->showRecord('2')
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->delete('2')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 05:19:50 --> Unknown column 'stock_merchandise.create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_stock`, `id_merchandise`, `title`, `decrease`, `stock_merchandise`.`create_at`, `pu_by`, `amount_by`, (pu_by*amount_by) as pta
+FROM `stock_merchandise`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = 0
+AND `merchandise`.`deleted` = 0
+AND `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_stock`, `id_merchandise`, `title`, `decrease`, `stock_merchandise`.`create_at`, `pu_by`, `amount_by`, (pu_by*amount_by) as pta
+FROM `stock_merchandise`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = 0
+AND `merchandise`.`deleted` = 0
+AND `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_stock`, `id_merchandise`, `title`, `decrease`, `stock_merchandise`.`create_at`, `pu_by`, `amount_by`, (pu_by*amount_by) as pta
+FROM `stock_merchandise`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = 0
+AND `merchandise`.`deleted` = 0
+AND `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT `id_stock`, `id_merchandise`, `title`, `decrease`, `stock_merchandise`.`create_at`, `pu_by`, `amount_by`, (pu_by*amount_by) as pta
+FROM `stock_merchandise`
+JOIN `merchandise` ON `merchandise`.`id` = `stock_merchandise`.`id_merchandise`
+WHERE `stock_merchandise`.`deleted` = :stock_merchandise.deleted:
+AND `merchandise`.`deleted` = :merchandise.deleted:
+AND `id` = :id:', [...], false)
+ 5 APPPATH\Models\stockModel.php(39): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(94): App\Models\stockModel->showRecord('2')
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->delete('2')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 05:23:30 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = 0
+AND `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = 0
+AND `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = 0
+AND `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = :deleted:
+AND `id` = :id:', [...], false)
+ 5 APPPATH\Models\stockModel.php(45): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(94): App\Models\stockModel->showStockItem('2')
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->delete('2')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 05:23:33 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = 0
+AND `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = 0
+AND `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = 0
+AND `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = :deleted:
+AND `id` = :id:', [...], false)
+ 5 APPPATH\Models\stockModel.php(45): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(94): App\Models\stockModel->showStockItem('2')
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->delete('2')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 06:37:22 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `stock_merchandise`
+WHERE `id` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `stock_merchandise`
+WHERE `id` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `stock_merchandise`
+WHERE `id` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `stock_merchandise`
+WHERE `id` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_not_unique(null, 'id', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('id_stock', 'id_stock', null, [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\stock_merchandise.php(66): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->edit()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 06:37:32 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `stock_merchandise`
+WHERE `id` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `stock_merchandise`
+WHERE `id` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `stock_merchandise`
+WHERE `id` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `stock_merchandise`
+WHERE `id` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_not_unique(null, 'id', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('id_stock', 'id_stock', null, [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\stock_merchandise.php(66): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->edit()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 12:47:49 --> Unknown column 'create_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `stock_merchandise` SET `id_merchandise` = \'1\', `pu_by` = \'0.5\', `amount_by` = \'10\', `decrease` = NULL, `saler` = NULL, `create_at` = \'2022-10-10 00:00:00\'
+WHERE `id_stock` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `stock_merchandise` SET `id_merchandise` = \'1\', `pu_by` = \'0.5\', `amount_by` = \'10\', `decrease` = NULL, `saler` = NULL, `create_at` = \'2022-10-10 00:00:00\'
+WHERE `id_stock` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `stock_merchandise` SET `id_merchandise` = \'1\', `pu_by` = \'0.5\', `amount_by` = \'10\', `decrease` = NULL, `saler` = NULL, `create_at` = \'2022-10-10 00:00:00\'
+WHERE `id_stock` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `stock_merchandise` SET `id_merchandise` = :id_merchandise:, `pu_by` = :pu_by:, `amount_by` = :amount_by:, `decrease` = :decrease:, `saler` = :saler:, `create_at` = :create_at:
+WHERE `id_stock` = :id_stock:', [...], false)
+ 5 APPPATH\Models\stockModel.php(27): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\stock_merchandise.php(82): App\Models\stockModel->editStock([...], '1')
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\stock_merchandise->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\stock_merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:10:31 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = 0
+AND `id` = \'11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = 0
+AND `id` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = 0
+AND `id` = \'11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = :deleted:
+AND `id` = :id:', [...], false)
+ 5 APPPATH\Models\merchandiseModel.php(31): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Controllers\merchandise.php(84): App\Models\merchandiseModel->verifyInstock('11')
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\merchandise->delete('11')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:10:48 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = 0
+AND `id` = \'11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = 0
+AND `id` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = 0
+AND `id` = \'11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `stock_merchandise`
+WHERE `deleted` = :deleted:
+AND `id` = :id:', [...], false)
+ 5 APPPATH\Models\merchandiseModel.php(31): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Controllers\merchandise.php(84): App\Models\merchandiseModel->verifyInstock('11')
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\merchandise->delete('11')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\merchandise))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

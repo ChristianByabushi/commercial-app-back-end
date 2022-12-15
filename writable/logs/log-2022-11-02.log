@@ -1,0 +1,33 @@
+CRITICAL - 2022-11-02 23:30:03 --> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('mysql:dbname=humanapp;host=localhost', 'root', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(24): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-02 23:30:11 --> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('mysql:dbname=humanapp;host=localhost', 'root', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(24): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-02 23:30:14 --> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('mysql:dbname=humanapp;host=localhost', 'root', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(24): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

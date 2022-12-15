@@ -1,0 +1,816 @@
+CRITICAL - 2022-12-15 03:36:58 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\accountModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\accountModel.php', 37)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\accountModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\accountModel')
+ 5 APPPATH\Controllers\User.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\accountModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\User->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:38:47 --> Optional parameter $data declared before required parameter $email is implicitly treated as a required parameter
+in APPPATH\Models\accountModel.php on line 54.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $data declared before required parameter $email is implicitly treated as a required parameter', 'APPPATH\\Models\\accountModel.php', 54)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\accountModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\accountModel')
+ 5 APPPATH\Controllers\User.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\accountModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\User->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:38:55 --> Optional parameter $data declared before required parameter $email is implicitly treated as a required parameter
+in APPPATH\Models\accountModel.php on line 54.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $data declared before required parameter $email is implicitly treated as a required parameter', 'APPPATH\\Models\\accountModel.php', 54)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\accountModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\accountModel')
+ 5 APPPATH\Controllers\User.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\accountModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\User->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:52:11 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:55:23 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:55:26 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:55:28 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:55:48 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:56:33 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:56:34 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:56:40 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:56:53 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:56:55 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:56:57 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:57:01 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:57:03 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:57:05 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:57:06 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:57:07 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:57:09 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:57:10 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:57:11 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:57:12 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:57:37 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:58:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'humanap'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Libraries\CustomOauthStorage.php(453): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 8 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 9 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+10 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 03:58:29 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:10:40 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomOauthStorage.php on line 463.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Libraries\\CustomOauthStorage.php', 463)
+ 2 APPPATH\Libraries\CustomOauthStorage.php(312): App\Libraries\CustomOauthStorage->getUser('murhchristian@gmail.com')
+ 3 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('murhchristian@gmail.com', 'christian')
+ 4 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 5 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+ 6 VENDORPATH\bshaffer\oauth2-server-php\src\OAuth2\Server.php(319): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+ 7 APPPATH\Controllers\User.php(26): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:22:46 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\invoiceModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\invoiceModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\invoiceModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\invoiceModel')
+ 5 APPPATH\Controllers\lineInvoice.php(21): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\invoiceModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\lineInvoice->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:23:43 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\invoiceModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\invoiceModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\invoiceModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\invoiceModel')
+ 5 APPPATH\Controllers\lineInvoice.php(21): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\invoiceModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\lineInvoice->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:24:18 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:24:42 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:26:42 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:26:44 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:27:14 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:27:16 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:27:31 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:27:32 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:27:45 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:38:32 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022:12:1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:38:48 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:39:42 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 04:39:54 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(96): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 05:10:33 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'humanapp.merchandise.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 4 APPPATH\Models\resultModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT id, title, categorie, description From merchandise where(deleted=0) group by title')
+ 5 APPPATH\Controllers\lineInvoice.php(97): App\Models\resultModel->DetailsItems()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 05:12:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_inv' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('
+		SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,\'ONLY_FULL_GROUP_BY\',\'\'));
+		
+		SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-12-1\'  ) ORDER BY lines_invoice.id_line DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('
+		SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,\'ONLY_FULL_GROUP_BY\',\'\'));
+		
+		SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-12-1\'  ) ORDER BY lines_invoice.id_line DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('
+		SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,\'ONLY_FULL_GROUP_BY\',\'\'));
+		
+		SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-12-1\'  ) ORDER BY lines_invoice.id_line DESC')
+ 4 APPPATH\Models\resultModel.php(60): CodeIgniter\Database\BaseConnection->query('
+		SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,\'ONLY_FULL_GROUP_BY\',\'\'));
+		
+		SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-12-1\'  ) ORDER BY lines_invoice.id_line DESC')
+ 5 APPPATH\Controllers\lineInvoice.php(96): App\Models\resultModel->getResultInvoices('2022-12-1')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 05:12:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_inv' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('
+		SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,\'ONLY_FULL_GROUP_BY\',\'\')),
+		
+		SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-12-1\'  ) ORDER BY lines_invoice.id_line DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('
+		SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,\'ONLY_FULL_GROUP_BY\',\'\')),
+		
+		SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-12-1\'  ) ORDER BY lines_invoice.id_line DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('
+		SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,\'ONLY_FULL_GROUP_BY\',\'\')),
+		
+		SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-12-1\'  ) ORDER BY lines_invoice.id_line DESC')
+ 4 APPPATH\Models\resultModel.php(60): CodeIgniter\Database\BaseConnection->query('
+		SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,\'ONLY_FULL_GROUP_BY\',\'\')),
+		
+		SELECT invoice.id_line,lines_invoice.created_at, merchandise.title,
+		lines_invoice.client, stock_merchandise.pu_by,		
+        invoice.pu_sale, invoice.amount_sale, 
+        ((stock_merchandise.pu_by * invoice.amount_sale)) as price_by,
+		(invoice.pu_sale * invoice.amount_sale) as price_sale,		
+		((invoice.pu_sale * invoice.amount_sale) -( stock_merchandise.pu_by * invoice.amount_sale)) as result FROM lines_invoice, stock_merchandise, merchandise, invoice
+		where( 
+		invoice.deleted = 0 and
+		lines_invoice.deleted = 0 and
+		lines_invoice.id_line = invoice.id_line and  
+		invoice.id_stock = stock_merchandise.id_stock  and 
+		merchandise.id = stock_merchandise.id_merchandise  and  lines_invoice.created_at >= \'2022-12-1\'  ) ORDER BY lines_invoice.id_line DESC')
+ 5 APPPATH\Controllers\lineInvoice.php(96): App\Models\resultModel->getResultInvoices('2022-12-1')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\lineInvoice->dashboardanalysis('2022-12-1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lineInvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 06:41:28 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\merchandiseModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\merchandiseModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\merchandiseModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\merchandiseModel')
+ 5 APPPATH\Controllers\merchandise.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\merchandiseModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\merchandise->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 06:44:03 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\merchandiseModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\merchandiseModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\merchandiseModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\merchandiseModel')
+ 5 APPPATH\Controllers\merchandise.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\merchandiseModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\merchandise->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 06:47:08 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\merchandiseModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\merchandiseModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\merchandiseModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\merchandiseModel')
+ 5 APPPATH\Controllers\merchandise.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\merchandiseModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\merchandise->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 06:47:40 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\merchandiseModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\merchandiseModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\merchandiseModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\merchandiseModel')
+ 5 APPPATH\Controllers\merchandise.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\merchandiseModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\merchandise->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 10:17:56 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\stockModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\stockModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\stockModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\stockModel')
+ 5 APPPATH\Controllers\stock_merchandise.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\stockModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\stock_merchandise->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 10:18:11 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\stockModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\stockModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\stockModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\stockModel')
+ 5 APPPATH\Controllers\stock_merchandise.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\stockModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\stock_merchandise->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 10:21:03 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\stockModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\stockModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\stockModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\stockModel')
+ 5 APPPATH\Controllers\stock_merchandise.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\stockModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\stock_merchandise->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 10:21:45 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\stockModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\stockModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\stockModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\stockModel')
+ 5 APPPATH\Controllers\stock_merchandise.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\stockModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\stock_merchandise->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 10:21:45 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\stockModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\stockModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\stockModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\stockModel')
+ 5 APPPATH\Controllers\invoice.php(22): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\stockModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\invoice->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 10:22:11 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\stockModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\stockModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\stockModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\stockModel')
+ 5 APPPATH\Controllers\stock_merchandise.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\stockModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\stock_merchandise->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 10:22:17 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\stockModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\stockModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\stockModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\stockModel')
+ 5 APPPATH\Controllers\invoice.php(22): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\stockModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\invoice->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 10:22:17 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\stockModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\stockModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\stockModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\stockModel')
+ 5 APPPATH\Controllers\stock_merchandise.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\stockModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\stock_merchandise->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 10:24:49 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\stockModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\stockModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\stockModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\stockModel')
+ 5 APPPATH\Controllers\stock_merchandise.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\stockModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\stock_merchandise->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 10:25:02 --> Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter
+in APPPATH\Models\stockModel.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $array declared before required parameter $id is implicitly treated as a required parameter', 'APPPATH\\Models\\stockModel.php', 25)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\stockModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\stockModel')
+ 5 APPPATH\Controllers\stock_merchandise.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\stockModel')
+ 6 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\stock_merchandise->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

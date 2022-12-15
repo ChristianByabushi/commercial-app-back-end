@@ -1,0 +1,581 @@
+CRITICAL - 2022-09-25 13:03:08 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:03:14 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:03:55 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:04:12 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:05:20 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:19:07 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:21:10 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:21:16 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:21:34 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:21:44 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:21:51 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:21:53 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:22:57 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:23:12 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:23:16 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:25:04 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:25:07 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:25:15 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:27:18 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:27:51 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:29:41 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:29:43 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:29:44 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:32:59 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:33:05 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:36:26 --> Declaration of App\Filters\Options::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:36:42 --> Declaration of App\Filters\Options::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 13:36:53 --> Declaration of App\Filters\Options::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 22:50:07 --> Declaration of App\Filters\Options::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 22:50:43 --> Declaration of App\Filters\Options::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-25 22:55:47 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 22:56:01 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login('christ', 'jona', 'yfh')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 22:56:41 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 22:56:55 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 22:57:02 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 22:57:05 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 22:57:25 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 22:59:46 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:07:18 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:07:44 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:07:46 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:08:56 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:09:48 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:10:02 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:10:06 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:10:15 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:10:34 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:10:53 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:14:34 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:14:52 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:16:08 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:17:57 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:18:17 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:19:13 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:20:19 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:20:33 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:20:46 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:21:15 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:21:19 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:31:51 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:31:53 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:31:54 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:32:13 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:34:48 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:34:49 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:34:55 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:34:59 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:35:02 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:36:46 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:36:47 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:40:37 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:40:39 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:42:58 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:47:01 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-25 23:51:06 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:51:20 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:53:26 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:53:26 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 23:58:30 --> invalid data source name
+in APPPATH\Libraries\CustomOauthStorage.php on line 66.
+ 1 APPPATH\Libraries\CustomOauthStorage.php(66): PDO->__construct('ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [])
+ 2 APPPATH\Libraries\Oauth.php(19): App\Libraries\CustomOauthStorage->__construct([...])
+ 3 APPPATH\Libraries\Oauth.php(11): App\Libraries\Oauth->init()
+ 4 APPPATH\Controllers\User.php(16): App\Libraries\Oauth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

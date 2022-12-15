@@ -1,0 +1,513 @@
+CRITICAL - 2022-10-18 00:04:11 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-18 00:06:05 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-18 00:07:25 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-18 00:07:28 --> Declaration of App\Filters\Options::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH\Filters\Options.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-18 00:25:11 --> Unknown column 'firstname' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `oauth_users` (`username`, `firstname`, `lastname`, `password`, `email`, `email_verified`, `scope`) VALUES (\'MozartBingazor\', \'Mozart\', \'Bingazor\', \'$2y$10$AIEPEpOZtWqcWE/A9NeO/e4r4qxyN6EdrZXLwwPQmyyriMWgmdUXy\', \'Bingazor@gmail.com\', 1, \'app\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `oauth_users` (`username`, `firstname`, `lastname`, `password`, `email`, `email_verified`, `scope`) VALUES (\'MozartBingazor\', \'Mozart\', \'Bingazor\', \'$2y$10$AIEPEpOZtWqcWE/A9NeO/e4r4qxyN6EdrZXLwwPQmyyriMWgmdUXy\', \'Bingazor@gmail.com\', 1, \'app\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `oauth_users` (`username`, `firstname`, `lastname`, `password`, `email`, `email_verified`, `scope`) VALUES (\'MozartBingazor\', \'Mozart\', \'Bingazor\', \'$2y$10$AIEPEpOZtWqcWE/A9NeO/e4r4qxyN6EdrZXLwwPQmyyriMWgmdUXy\', \'Bingazor@gmail.com\', 1, \'app\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `oauth_users` (`username`, `firstname`, `lastname`, `password`, `email`, `email_verified`, `scope`) VALUES (:username:, :firstname:, :lastname:, :password:, :email:, :email_verified:, :scope:)', [...], false)
+ 5 APPPATH\Models\accountModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\User.php(80): App\Models\accountModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->register()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 00:27:50 --> Unknown column 'client_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `oauth_users` (`client_id`, `client_secret`, `redirect_uri`, `grant_types`, `scope`, `user_id`) VALUES (\'Bingazor@gmail.com\', \'$2y$10$i1FwIn6.ZnGv7NotP5rCMeFI2a5XPR6ESUYkhB8DtxgBMTEtDjnN2\', \'\', \'password\', \'app\', 11)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `oauth_users` (`client_id`, `client_secret`, `redirect_uri`, `grant_types`, `scope`, `user_id`) VALUES (\'Bingazor@gmail.com\', \'$2y$10$i1FwIn6.ZnGv7NotP5rCMeFI2a5XPR6ESUYkhB8DtxgBMTEtDjnN2\', \'\', \'password\', \'app\', 11)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `oauth_users` (`client_id`, `client_secret`, `redirect_uri`, `grant_types`, `scope`, `user_id`) VALUES (\'Bingazor@gmail.com\', \'$2y$10$i1FwIn6.ZnGv7NotP5rCMeFI2a5XPR6ESUYkhB8DtxgBMTEtDjnN2\', \'\', \'password\', \'app\', 11)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `oauth_users` (`client_id`, `client_secret`, `redirect_uri`, `grant_types`, `scope`, `user_id`) VALUES (:client_id:, :client_secret:, :redirect_uri:, :grant_types:, :scope:, :user_id:)', [...], false)
+ 5 APPPATH\Models\accountModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\User.php(92): App\Models\accountModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->register()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 00:31:54 --> Unknown column 'client_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `oauth_users` (`client_id`, `client_secret`, `redirect_uri`, `grant_types`, `scope`, `user_id`) VALUES (\'Bingazor@gmail.com\', \'$2y$10$TrhyL5EcW0E527vwu47a..aXdASMi5bdJGPq9R0rNaQqIr4zUsNZK\', \'\', \'password\', \'app\', 12)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `oauth_users` (`client_id`, `client_secret`, `redirect_uri`, `grant_types`, `scope`, `user_id`) VALUES (\'Bingazor@gmail.com\', \'$2y$10$TrhyL5EcW0E527vwu47a..aXdASMi5bdJGPq9R0rNaQqIr4zUsNZK\', \'\', \'password\', \'app\', 12)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `oauth_users` (`client_id`, `client_secret`, `redirect_uri`, `grant_types`, `scope`, `user_id`) VALUES (\'Bingazor@gmail.com\', \'$2y$10$TrhyL5EcW0E527vwu47a..aXdASMi5bdJGPq9R0rNaQqIr4zUsNZK\', \'\', \'password\', \'app\', 12)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `oauth_users` (`client_id`, `client_secret`, `redirect_uri`, `grant_types`, `scope`, `user_id`) VALUES (:client_id:, :client_secret:, :redirect_uri:, :grant_types:, :scope:, :user_id:)', [...], false)
+ 5 APPPATH\Models\accountModel.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\User.php(92): App\Models\accountModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->register()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 00:39:04 --> Unknown column 'client_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `oauth_users` (`client_id`, `client_secret`, `redirect_uri`, `grant_types`, `scope`, `user_id`) VALUES (\'Bingazor@gmail.com\', \'$2y$10$JX1YElYgoRSR7tP1WiQ5Z.VP0.utwfM0xhfbPgqpmogRYvA58fuCC\', \'\', \'password\', \'app\', 13)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `oauth_users` (`client_id`, `client_secret`, `redirect_uri`, `grant_types`, `scope`, `user_id`) VALUES (\'Bingazor@gmail.com\', \'$2y$10$JX1YElYgoRSR7tP1WiQ5Z.VP0.utwfM0xhfbPgqpmogRYvA58fuCC\', \'\', \'password\', \'app\', 13)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `oauth_users` (`client_id`, `client_secret`, `redirect_uri`, `grant_types`, `scope`, `user_id`) VALUES (\'Bingazor@gmail.com\', \'$2y$10$JX1YElYgoRSR7tP1WiQ5Z.VP0.utwfM0xhfbPgqpmogRYvA58fuCC\', \'\', \'password\', \'app\', 13)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `oauth_users` (`client_id`, `client_secret`, `redirect_uri`, `grant_types`, `scope`, `user_id`) VALUES (:client_id:, :client_secret:, :redirect_uri:, :grant_types:, :scope:, :user_id:)', [...], false)
+ 5 APPPATH\Models\accountModel.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\User.php(92): App\Models\accountModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->register()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 01:44:21 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('0118362ace7961f2f260adb27c2e54fe3c7719b1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 01:44:46 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('\'0118362ace7961f2f260adb27c2e54fe3c7719b1\'')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 01:59:09 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 01:59:13 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 01:59:47 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 01:59:49 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:00:07 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('\'13713d99f190d20eafb44c48812434a5021ca0a0\'')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:00:32 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:01:09 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:02:16 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:03:41 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:03:48 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:03:49 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:03:51 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:03:52 --> Call to a member function getInforAccount() on null
+in APPPATH\Controllers\User.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:04:32 --> Unknown column 'oauth_users.password' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = \'13713d99f190d20eafb44c48812434a5021ca0a0\' and 
+		 oauth_users.username =  users.id)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = \'13713d99f190d20eafb44c48812434a5021ca0a0\' and 
+		 oauth_users.username =  users.id)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = \'13713d99f190d20eafb44c48812434a5021ca0a0\' and 
+		 oauth_users.username =  users.id)')
+ 4 APPPATH\Models\accountModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = \'13713d99f190d20eafb44c48812434a5021ca0a0\' and 
+		 oauth_users.username =  users.id)')
+ 5 APPPATH\Controllers\User.php(106): App\Models\accountModel->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:06:14 --> Unknown column '13713d99f190d20eafb44c48812434a5021ca0a0' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = 13713d99f190d20eafb44c48812434a5021ca0a0 and 
+		 oauth_users.username =  users.id)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = 13713d99f190d20eafb44c48812434a5021ca0a0 and 
+		 oauth_users.username =  users.id)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = 13713d99f190d20eafb44c48812434a5021ca0a0 and 
+		 oauth_users.username =  users.id)')
+ 4 APPPATH\Models\accountModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = 13713d99f190d20eafb44c48812434a5021ca0a0 and 
+		 oauth_users.username =  users.id)')
+ 5 APPPATH\Controllers\User.php(106): App\Models\accountModel->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:09:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'd99f190d20eafb44c48812434a5021ca0a0. and 
+		 oauth_users.username =  users.id)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = .13713d99f190d20eafb44c48812434a5021ca0a0. and 
+		 oauth_users.username =  users.id)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = .13713d99f190d20eafb44c48812434a5021ca0a0. and 
+		 oauth_users.username =  users.id)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = .13713d99f190d20eafb44c48812434a5021ca0a0. and 
+		 oauth_users.username =  users.id)')
+ 4 APPPATH\Models\accountModel.php(36): CodeIgniter\Database\BaseConnection->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = .13713d99f190d20eafb44c48812434a5021ca0a0. and 
+		 oauth_users.username =  users.id)')
+ 5 APPPATH\Controllers\User.php(106): App\Models\accountModel->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:11:51 --> Unknown column '13713d99f190d20eafb44c48812434a5021ca0a0' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = 13713d99f190d20eafb44c48812434a5021ca0a0 and 
+		 oauth_users.username =  users.id)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = 13713d99f190d20eafb44c48812434a5021ca0a0 and 
+		 oauth_users.username =  users.id)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = 13713d99f190d20eafb44c48812434a5021ca0a0 and 
+		 oauth_users.username =  users.id)')
+ 4 APPPATH\Models\accountModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id and 
+		 oauth_access_tokens.access_token = 13713d99f190d20eafb44c48812434a5021ca0a0 and 
+		 oauth_users.username =  users.id)')
+ 5 APPPATH\Controllers\User.php(106): App\Models\accountModel->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 02:15:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'oauth_users.username =  users.id)' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id  
+		 
+		 oauth_users.username =  users.id)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id  
+		 
+		 oauth_users.username =  users.id)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id  
+		 
+		 oauth_users.username =  users.id)')
+ 4 APPPATH\Models\accountModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.id = oauth_access_tokens.user_id  
+		 
+		 oauth_users.username =  users.id)')
+ 5 APPPATH\Controllers\User.php(106): App\Models\accountModel->getInforAccount('13713d99f190d20eafb44c48812434a5021ca0a0')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:32:56 --> Unknown table 'oauth_users' in field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT oauth_users.password where oauth_users.email = \'bbbbbbbbbb\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT oauth_users.password where oauth_users.email = \'bbbbbbbbbb\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT oauth_users.password where oauth_users.email = \'bbbbbbbbbb\'')
+ 4 APPPATH\Models\accountModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT oauth_users.password where oauth_users.email = \'bbbbbbbbbb\'')
+ 5 APPPATH\Controllers\User.php(132): App\Models\accountModel->verifyUserPassword('bbbbbbbbbb')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:33:30 --> Unknown table 'oauth_users' in field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT oauth_users.password where oauth_users.email = \'bbbbbbbbbb\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT oauth_users.password where oauth_users.email = \'bbbbbbbbbb\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT oauth_users.password where oauth_users.email = \'bbbbbbbbbb\'')
+ 4 APPPATH\Models\accountModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT oauth_users.password where oauth_users.email = \'bbbbbbbbbb\'')
+ 5 APPPATH\Controllers\User.php(132): App\Models\accountModel->verifyUserPassword('bbbbbbbbbb')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:33:42 --> Unknown table 'oauth_users' in field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT oauth_users.password where oauth_users.email = \'bbbbbbbbbbbbb\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT oauth_users.password where oauth_users.email = \'bbbbbbbbbbbbb\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT oauth_users.password where oauth_users.email = \'bbbbbbbbbbbbb\'')
+ 4 APPPATH\Models\accountModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT oauth_users.password where oauth_users.email = \'bbbbbbbbbbbbb\'')
+ 5 APPPATH\Controllers\User.php(132): App\Models\accountModel->verifyUserPassword('bbbbbbbbbbbbb')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:33:58 --> Unknown table 'oauth_users' in field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT oauth_users.password where oauth_users.email = \'christian\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT oauth_users.password where oauth_users.email = \'christian\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT oauth_users.password where oauth_users.email = \'christian\'')
+ 4 APPPATH\Models\accountModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT oauth_users.password where oauth_users.email = \'christian\'')
+ 5 APPPATH\Controllers\User.php(132): App\Models\accountModel->verifyUserPassword('christian')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:34:05 --> Unknown table 'oauth_users' in field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT oauth_users.password where oauth_users.email = \'christian\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT oauth_users.password where oauth_users.email = \'christian\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT oauth_users.password where oauth_users.email = \'christian\'')
+ 4 APPPATH\Models\accountModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT oauth_users.password where oauth_users.email = \'christian\'')
+ 5 APPPATH\Controllers\User.php(132): App\Models\accountModel->verifyUserPassword('christian')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:34:05 --> Unknown table 'oauth_users' in field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT oauth_users.password where oauth_users.email = \'christian\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT oauth_users.password where oauth_users.email = \'christian\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT oauth_users.password where oauth_users.email = \'christian\'')
+ 4 APPPATH\Models\accountModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT oauth_users.password where oauth_users.email = \'christian\'')
+ 5 APPPATH\Controllers\User.php(132): App\Models\accountModel->verifyUserPassword('christian')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:34:44 --> Unknown table 'oauth_users' in field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT oauth_users.password where oauth_users.email = \'Bingazorbbb\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT oauth_users.password where oauth_users.email = \'Bingazorbbb\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT oauth_users.password where oauth_users.email = \'Bingazorbbb\'')
+ 4 APPPATH\Models\accountModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT oauth_users.password where oauth_users.email = \'Bingazorbbb\'')
+ 5 APPPATH\Controllers\User.php(132): App\Models\accountModel->verifyUserPassword('Bingazorbbb')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:50:36 --> Unknown table 'oauth_users' in field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT oauth_users.password where (oauth_users.email = \'murhchristian@gmail.com\' and oauth_users.password = \'christian\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT oauth_users.password where (oauth_users.email = \'murhchristian@gmail.com\' and oauth_users.password = \'christian\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT oauth_users.password where (oauth_users.email = \'murhchristian@gmail.com\' and oauth_users.password = \'christian\')')
+ 4 APPPATH\Models\accountModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT oauth_users.password where (oauth_users.email = \'murhchristian@gmail.com\' and oauth_users.password = \'christian\')')
+ 5 APPPATH\Controllers\User.php(109): App\Models\accountModel->verifyUserPassword('christian', 'murhchristian@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->verifyUserPassword()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:50:39 --> Unknown table 'oauth_users' in field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT oauth_users.password where (oauth_users.email = \'murhchristian@gmail.com\' and oauth_users.password = \'christian\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT oauth_users.password where (oauth_users.email = \'murhchristian@gmail.com\' and oauth_users.password = \'christian\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT oauth_users.password where (oauth_users.email = \'murhchristian@gmail.com\' and oauth_users.password = \'christian\')')
+ 4 APPPATH\Models\accountModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT oauth_users.password where (oauth_users.email = \'murhchristian@gmail.com\' and oauth_users.password = \'christian\')')
+ 5 APPPATH\Controllers\User.php(109): App\Models\accountModel->verifyUserPassword('christian', 'murhchristian@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->verifyUserPassword()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:50:43 --> Unknown table 'oauth_users' in field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT oauth_users.password where (oauth_users.email = \'murhchristian@gmail.com\' and oauth_users.password = \'christian\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT oauth_users.password where (oauth_users.email = \'murhchristian@gmail.com\' and oauth_users.password = \'christian\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT oauth_users.password where (oauth_users.email = \'murhchristian@gmail.com\' and oauth_users.password = \'christian\')')
+ 4 APPPATH\Models\accountModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT oauth_users.password where (oauth_users.email = \'murhchristian@gmail.com\' and oauth_users.password = \'christian\')')
+ 5 APPPATH\Controllers\User.php(109): App\Models\accountModel->verifyUserPassword('christian', 'murhchristian@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->verifyUserPassword()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:56:34 --> Unknown column 'oauth_clients.client_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT oauth_clients.client_id FROM oauth_users where (oauth_clients.client_id = \'murhchristian@gmail.com\' and client_secret.client_secret = \'christian\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT oauth_clients.client_id FROM oauth_users where (oauth_clients.client_id = \'murhchristian@gmail.com\' and client_secret.client_secret = \'christian\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT oauth_clients.client_id FROM oauth_users where (oauth_clients.client_id = \'murhchristian@gmail.com\' and client_secret.client_secret = \'christian\')')
+ 4 APPPATH\Models\accountModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT oauth_clients.client_id FROM oauth_users where (oauth_clients.client_id = \'murhchristian@gmail.com\' and client_secret.client_secret = \'christian\')')
+ 5 APPPATH\Controllers\User.php(109): App\Models\accountModel->verifyUserPassword('christian', 'murhchristian@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->verifyUserPassword()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:56:48 --> Unknown column 'client_secret.client_secret' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT oauth_clients.client_id FROM oauth_clients where (oauth_clients.client_id = \'murhchristian@gmail.com\' and client_secret.client_secret = \'christian\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT oauth_clients.client_id FROM oauth_clients where (oauth_clients.client_id = \'murhchristian@gmail.com\' and client_secret.client_secret = \'christian\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT oauth_clients.client_id FROM oauth_clients where (oauth_clients.client_id = \'murhchristian@gmail.com\' and client_secret.client_secret = \'christian\')')
+ 4 APPPATH\Models\accountModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT oauth_clients.client_id FROM oauth_clients where (oauth_clients.client_id = \'murhchristian@gmail.com\' and client_secret.client_secret = \'christian\')')
+ 5 APPPATH\Controllers\User.php(109): App\Models\accountModel->verifyUserPassword('christian', 'murhchristian@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->verifyUserPassword()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 13:07:01 --> Undefined index: id
+in APPPATH\Controllers\User.php on line 158.
+ 1 APPPATH\Controllers\User.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\User.php', 158, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 13:09:29 --> Undefined index: id
+in APPPATH\Controllers\User.php on line 158.
+ 1 APPPATH\Controllers\User.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\User.php', 158, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 13:11:35 --> Undefined index: id
+in APPPATH\Controllers\User.php on line 158.
+ 1 APPPATH\Controllers\User.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\User.php', 158, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 13:19:59 --> Undefined index: id
+in APPPATH\Controllers\User.php on line 158.
+ 1 APPPATH\Controllers\User.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\User.php', 158, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 13:23:04 --> Undefined index: id
+in APPPATH\Controllers\User.php on line 158.
+ 1 APPPATH\Controllers\User.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\User.php', 158, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 13:24:32 --> Unknown column 'client_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `oauth_users` SET `client_id` = \'murhchristian@gmail.com\', `client_secret` = \'christian\', `redirect_uri` = \'\', `grant_types` = \'password\', `scope` = \'app\', `user_id` = \'2\'
+WHERE `client_id` = \'murhchristian@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `oauth_users` SET `client_id` = \'murhchristian@gmail.com\', `client_secret` = \'christian\', `redirect_uri` = \'\', `grant_types` = \'password\', `scope` = \'app\', `user_id` = \'2\'
+WHERE `client_id` = \'murhchristian@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `oauth_users` SET `client_id` = \'murhchristian@gmail.com\', `client_secret` = \'christian\', `redirect_uri` = \'\', `grant_types` = \'password\', `scope` = \'app\', `user_id` = \'2\'
+WHERE `client_id` = \'murhchristian@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `oauth_users` SET `client_id` = :client_id.1:, `client_secret` = :client_secret:, `redirect_uri` = :redirect_uri:, `grant_types` = :grant_types:, `scope` = :scope:, `user_id` = :user_id:
+WHERE `client_id` = :client_id:', [...], false)
+ 5 APPPATH\Models\accountModel.php(52): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\User.php(181): App\Models\accountModel->updateClient([...], 'murhchristian@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 13:25:50 --> Unknown column 'client_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `oauth_users` SET `client_id` = \'murhchristian@gmail.com\', `client_secret` = \'christian\', `redirect_uri` = \'\', `grant_types` = \'password\', `scope` = \'app\', `user_id` = \'2\'
+WHERE `client_id` = \'murhchristian@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `oauth_users` SET `client_id` = \'murhchristian@gmail.com\', `client_secret` = \'christian\', `redirect_uri` = \'\', `grant_types` = \'password\', `scope` = \'app\', `user_id` = \'2\'
+WHERE `client_id` = \'murhchristian@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `oauth_users` SET `client_id` = \'murhchristian@gmail.com\', `client_secret` = \'christian\', `redirect_uri` = \'\', `grant_types` = \'password\', `scope` = \'app\', `user_id` = \'2\'
+WHERE `client_id` = \'murhchristian@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `oauth_users` SET `client_id` = :client_id.1:, `client_secret` = :client_secret:, `redirect_uri` = :redirect_uri:, `grant_types` = :grant_types:, `scope` = :scope:, `user_id` = :user_id:
+WHERE `client_id` = :client_id:', [...], false)
+ 5 APPPATH\Models\accountModel.php(52): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\User.php(181): App\Models\accountModel->updateClient([...], 'murhchristian@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 22:54:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'fd43714c522c4b0682fe3fb14aa4bc2836498432'' and 
+		 oauth_users.email =  user...' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.email = oauth_access_tokens.client_id and 
+		 oauth_access_tokens.access_token = \'\'fd43714c522c4b0682fe3fb14aa4bc2836498432\'\' and 
+		 oauth_users.email =  users.email)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.email = oauth_access_tokens.client_id and 
+		 oauth_access_tokens.access_token = \'\'fd43714c522c4b0682fe3fb14aa4bc2836498432\'\' and 
+		 oauth_users.email =  users.email)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.email = oauth_access_tokens.client_id and 
+		 oauth_access_tokens.access_token = \'\'fd43714c522c4b0682fe3fb14aa4bc2836498432\'\' and 
+		 oauth_users.email =  users.email)')
+ 4 APPPATH\Models\accountModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.email = oauth_access_tokens.client_id and 
+		 oauth_access_tokens.access_token = \'\'fd43714c522c4b0682fe3fb14aa4bc2836498432\'\' and 
+		 oauth_users.email =  users.email)')
+ 5 APPPATH\Controllers\User.php(104): App\Models\accountModel->getInforAccount('\'fd43714c522c4b0682fe3fb14aa4bc2836498432\'')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('\'fd43714c522c4b0682fe3fb14aa4bc2836498432\'')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 22:55:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'fd43714c522c4b0682fe3fb14aa4bc2836498432'' and 
+		 oauth_users.email =  user...' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.email = oauth_access_tokens.client_id and 
+		 oauth_access_tokens.access_token = \'\'fd43714c522c4b0682fe3fb14aa4bc2836498432\'\' and 
+		 oauth_users.email =  users.email)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.email = oauth_access_tokens.client_id and 
+		 oauth_access_tokens.access_token = \'\'fd43714c522c4b0682fe3fb14aa4bc2836498432\'\' and 
+		 oauth_users.email =  users.email)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.email = oauth_access_tokens.client_id and 
+		 oauth_access_tokens.access_token = \'\'fd43714c522c4b0682fe3fb14aa4bc2836498432\'\' and 
+		 oauth_users.email =  users.email)')
+ 4 APPPATH\Models\accountModel.php(36): CodeIgniter\Database\BaseConnection->query('SELECT users.firstname, users.lastname, users.id, users.email, oauth_users.password from users, oauth_access_tokens, oauth_users  where 
+		(users.email = oauth_access_tokens.client_id and 
+		 oauth_access_tokens.access_token = \'\'fd43714c522c4b0682fe3fb14aa4bc2836498432\'\' and 
+		 oauth_users.email =  users.email)')
+ 5 APPPATH\Controllers\User.php(104): App\Models\accountModel->getInforAccount('\'fd43714c522c4b0682fe3fb14aa4bc2836498432\'')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInforAccount('\'fd43714c522c4b0682fe3fb14aa4bc2836498432\'')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
