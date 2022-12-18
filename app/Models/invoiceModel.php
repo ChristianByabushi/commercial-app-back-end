@@ -18,7 +18,7 @@ class invoiceModel extends Model
 	}
 
 	public function addinvoice($array = [])
-	{
+	{ 
 		return $this->tableinvoice->insert($array);
 	}
 

@@ -1,0 +1,566 @@
+CRITICAL - 2022-12-17 12:58:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\User.php(373): CodeIgniter\Model->__call('getAllUsers', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getAllusers('decl')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 12:58:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\User.php(373): CodeIgniter\Model->__call('getAllUsers', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getAllusers('agent')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 12:59:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\User.php(373): CodeIgniter\Model->__call('getAllUsers', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getAllusers('decl')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 13:00:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\User.php(373): CodeIgniter\Model->__call('getAllUsers', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getAllusers('decl')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 13:03:18 --> Unknown column 'stateaccount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 4 APPPATH\Models\accountModel.php(42): CodeIgniter\Database\BaseConnection->query('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 5 APPPATH\Controllers\User.php(373): App\Models\accountModel->getAllUsers('decl')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getAllusers('decl')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 13:03:38 --> Unknown column 'stateaccount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 4 APPPATH\Models\accountModel.php(42): CodeIgniter\Database\BaseConnection->query('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 5 APPPATH\Controllers\User.php(373): App\Models\accountModel->getAllUsers('decl')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getAllusers('decl')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 13:03:48 --> Unknown column 'stateaccount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 4 APPPATH\Models\accountModel.php(42): CodeIgniter\Database\BaseConnection->query('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 5 APPPATH\Controllers\User.php(373): App\Models\accountModel->getAllUsers('decl')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getAllusers('decl')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 13:04:08 --> Unknown column 'stateaccount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 4 APPPATH\Models\accountModel.php(42): CodeIgniter\Database\BaseConnection->query('SELECT id, firstname, email, lastname, 
+		scope, created_at, stateaccount FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 5 APPPATH\Controllers\User.php(373): App\Models\accountModel->getAllUsers('decl')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getAllusers('decl')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 13:04:20 --> Unknown column 'deleted' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id, firstname, email, lastname, 
+		scope, created_at FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, firstname, email, lastname, 
+		scope, created_at FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, firstname, email, lastname, 
+		scope, created_at FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 4 APPPATH\Models\accountModel.php(42): CodeIgniter\Database\BaseConnection->query('SELECT id, firstname, email, lastname, 
+		scope, created_at FROM users 
+		where  scope = \'decl\' and    scope !=\'admin\' and deleted = 0 order by created_at desc')
+ 5 APPPATH\Controllers\User.php(373): App\Models\accountModel->getAllUsers('decl')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getAllusers('decl')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 13:15:12 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+in SYSTEMPATH\Config\Factories.php on line 99.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-17 13:54:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\User.php(185): CodeIgniter\Model->__call('getInfoByid', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInfoByid('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 13:56:52 --> Unknown column 'users.stateaccount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' and deleted = 0 and stateaccount = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' and deleted = 0 and stateaccount = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' and deleted = 0 and stateaccount = 0')
+ 4 APPPATH\Models\accountModel.php(55): CodeIgniter\Database\BaseConnection->query('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' and deleted = 0 and stateaccount = 0')
+ 5 APPPATH\Controllers\User.php(185): App\Models\accountModel->getInfoByid('2')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInfoByid('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 13:57:05 --> Unknown column 'users.stateaccount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' and deleted = 0 and stateaccount = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' and deleted = 0 and stateaccount = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' and deleted = 0 and stateaccount = 0')
+ 4 APPPATH\Models\accountModel.php(55): CodeIgniter\Database\BaseConnection->query('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' and deleted = 0 and stateaccount = 0')
+ 5 APPPATH\Controllers\User.php(185): App\Models\accountModel->getInfoByid('2')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInfoByid('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 13:57:13 --> Unknown column 'users.stateaccount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' and deleted = 0 and stateaccount = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' and deleted = 0 and stateaccount = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' and deleted = 0 and stateaccount = 0')
+ 4 APPPATH\Models\accountModel.php(55): CodeIgniter\Database\BaseConnection->query('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' and deleted = 0 and stateaccount = 0')
+ 5 APPPATH\Controllers\User.php(185): App\Models\accountModel->getInfoByid('2')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInfoByid('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 14:21:25 --> Unknown column 'users.stateaccount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' ')
+ 4 APPPATH\Models\accountModel.php(55): CodeIgniter\Database\BaseConnection->query('SELECT users.id, users.firstname as firstname, users.lastname as
+		 lastname, users.id as id, users.email as email, users.scope, users.stateaccount  from users
+		where users.id = \'2\' ')
+ 5 APPPATH\Controllers\User.php(186): App\Models\accountModel->getInfoByid('2')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->getInfoByid('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 15:06:32 --> Table 'humanapp.servicemessage' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 
+		 servicemessage.idService, 
+		 servicemessage.message, 
+		 servicemessage.created_at, 
+		 servicemessage.kind,
+		 firstnameReceiver,
+		 emailReceiver,
+		 firstnameWriter, 
+		 servicemessage.writer,
+		 servicemessage.receiver
+    from servicemessage 
+		LEFT JOIN (
+		 SELECT receiver, 
+		 firstname AS firstnameReceiver, email AS emailReceiver
+		 FROM users, servicemessage WHERE servicemessage.receiver = users.id GROUP BY 1  
+		 ) 
+		 AS users ON users.receiver = servicemessage.receiver
+	 
+		 LEFT JOIN (
+			 SELECT writer, 
+			 firstname AS firstnameWriter, email AS emailWriter
+			 FROM users,servicemessage WHERE servicemessage.writer = users.id GROUP BY 1 
+		 ) 
+		 AS userWriter ON userWriter.writer = servicemessage.writer 
+	 WHERE servicemessage.writer = 10 OR servicemessage.receiver = 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+		 servicemessage.idService, 
+		 servicemessage.message, 
+		 servicemessage.created_at, 
+		 servicemessage.kind,
+		 firstnameReceiver,
+		 emailReceiver,
+		 firstnameWriter, 
+		 servicemessage.writer,
+		 servicemessage.receiver
+    from servicemessage 
+		LEFT JOIN (
+		 SELECT receiver, 
+		 firstname AS firstnameReceiver, email AS emailReceiver
+		 FROM users, servicemessage WHERE servicemessage.receiver = users.id GROUP BY 1  
+		 ) 
+		 AS users ON users.receiver = servicemessage.receiver
+	 
+		 LEFT JOIN (
+			 SELECT writer, 
+			 firstname AS firstnameWriter, email AS emailWriter
+			 FROM users,servicemessage WHERE servicemessage.writer = users.id GROUP BY 1 
+		 ) 
+		 AS userWriter ON userWriter.writer = servicemessage.writer 
+	 WHERE servicemessage.writer = 10 OR servicemessage.receiver = 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+		 servicemessage.idService, 
+		 servicemessage.message, 
+		 servicemessage.created_at, 
+		 servicemessage.kind,
+		 firstnameReceiver,
+		 emailReceiver,
+		 firstnameWriter, 
+		 servicemessage.writer,
+		 servicemessage.receiver
+    from servicemessage 
+		LEFT JOIN (
+		 SELECT receiver, 
+		 firstname AS firstnameReceiver, email AS emailReceiver
+		 FROM users, servicemessage WHERE servicemessage.receiver = users.id GROUP BY 1  
+		 ) 
+		 AS users ON users.receiver = servicemessage.receiver
+	 
+		 LEFT JOIN (
+			 SELECT writer, 
+			 firstname AS firstnameWriter, email AS emailWriter
+			 FROM users,servicemessage WHERE servicemessage.writer = users.id GROUP BY 1 
+		 ) 
+		 AS userWriter ON userWriter.writer = servicemessage.writer 
+	 WHERE servicemessage.writer = 10 OR servicemessage.receiver = 10')
+ 4 APPPATH\Models\messagesModel.php(46): CodeIgniter\Database\BaseConnection->query('SELECT 
+		 servicemessage.idService, 
+		 servicemessage.message, 
+		 servicemessage.created_at, 
+		 servicemessage.kind,
+		 firstnameReceiver,
+		 emailReceiver,
+		 firstnameWriter, 
+		 servicemessage.writer,
+		 servicemessage.receiver
+    from servicemessage 
+		LEFT JOIN (
+		 SELECT receiver, 
+		 firstname AS firstnameReceiver, email AS emailReceiver
+		 FROM users, servicemessage WHERE servicemessage.receiver = users.id GROUP BY 1  
+		 ) 
+		 AS users ON users.receiver = servicemessage.receiver
+	 
+		 LEFT JOIN (
+			 SELECT writer, 
+			 firstname AS firstnameWriter, email AS emailWriter
+			 FROM users,servicemessage WHERE servicemessage.writer = users.id GROUP BY 1 
+		 ) 
+		 AS userWriter ON userWriter.writer = servicemessage.writer 
+	 WHERE servicemessage.writer = 10 OR servicemessage.receiver = 10')
+ 5 APPPATH\Controllers\messages.php(24): App\Models\messagesModel->getMessages('10')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\messages->getMessages('10')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\messages))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 15:06:37 --> Table 'humanapp.servicemessage' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 
+		 servicemessage.idService, 
+		 servicemessage.message, 
+		 servicemessage.created_at, 
+		 servicemessage.kind,
+		 firstnameReceiver,
+		 emailReceiver,
+		 firstnameWriter, 
+		 servicemessage.writer,
+		 servicemessage.receiver
+    from servicemessage 
+		LEFT JOIN (
+		 SELECT receiver, 
+		 firstname AS firstnameReceiver, email AS emailReceiver
+		 FROM users, servicemessage WHERE servicemessage.receiver = users.id GROUP BY 1  
+		 ) 
+		 AS users ON users.receiver = servicemessage.receiver
+	 
+		 LEFT JOIN (
+			 SELECT writer, 
+			 firstname AS firstnameWriter, email AS emailWriter
+			 FROM users,servicemessage WHERE servicemessage.writer = users.id GROUP BY 1 
+		 ) 
+		 AS userWriter ON userWriter.writer = servicemessage.writer 
+	 WHERE servicemessage.writer = 10 OR servicemessage.receiver = 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+		 servicemessage.idService, 
+		 servicemessage.message, 
+		 servicemessage.created_at, 
+		 servicemessage.kind,
+		 firstnameReceiver,
+		 emailReceiver,
+		 firstnameWriter, 
+		 servicemessage.writer,
+		 servicemessage.receiver
+    from servicemessage 
+		LEFT JOIN (
+		 SELECT receiver, 
+		 firstname AS firstnameReceiver, email AS emailReceiver
+		 FROM users, servicemessage WHERE servicemessage.receiver = users.id GROUP BY 1  
+		 ) 
+		 AS users ON users.receiver = servicemessage.receiver
+	 
+		 LEFT JOIN (
+			 SELECT writer, 
+			 firstname AS firstnameWriter, email AS emailWriter
+			 FROM users,servicemessage WHERE servicemessage.writer = users.id GROUP BY 1 
+		 ) 
+		 AS userWriter ON userWriter.writer = servicemessage.writer 
+	 WHERE servicemessage.writer = 10 OR servicemessage.receiver = 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+		 servicemessage.idService, 
+		 servicemessage.message, 
+		 servicemessage.created_at, 
+		 servicemessage.kind,
+		 firstnameReceiver,
+		 emailReceiver,
+		 firstnameWriter, 
+		 servicemessage.writer,
+		 servicemessage.receiver
+    from servicemessage 
+		LEFT JOIN (
+		 SELECT receiver, 
+		 firstname AS firstnameReceiver, email AS emailReceiver
+		 FROM users, servicemessage WHERE servicemessage.receiver = users.id GROUP BY 1  
+		 ) 
+		 AS users ON users.receiver = servicemessage.receiver
+	 
+		 LEFT JOIN (
+			 SELECT writer, 
+			 firstname AS firstnameWriter, email AS emailWriter
+			 FROM users,servicemessage WHERE servicemessage.writer = users.id GROUP BY 1 
+		 ) 
+		 AS userWriter ON userWriter.writer = servicemessage.writer 
+	 WHERE servicemessage.writer = 10 OR servicemessage.receiver = 10')
+ 4 APPPATH\Models\messagesModel.php(46): CodeIgniter\Database\BaseConnection->query('SELECT 
+		 servicemessage.idService, 
+		 servicemessage.message, 
+		 servicemessage.created_at, 
+		 servicemessage.kind,
+		 firstnameReceiver,
+		 emailReceiver,
+		 firstnameWriter, 
+		 servicemessage.writer,
+		 servicemessage.receiver
+    from servicemessage 
+		LEFT JOIN (
+		 SELECT receiver, 
+		 firstname AS firstnameReceiver, email AS emailReceiver
+		 FROM users, servicemessage WHERE servicemessage.receiver = users.id GROUP BY 1  
+		 ) 
+		 AS users ON users.receiver = servicemessage.receiver
+	 
+		 LEFT JOIN (
+			 SELECT writer, 
+			 firstname AS firstnameWriter, email AS emailWriter
+			 FROM users,servicemessage WHERE servicemessage.writer = users.id GROUP BY 1 
+		 ) 
+		 AS userWriter ON userWriter.writer = servicemessage.writer 
+	 WHERE servicemessage.writer = 10 OR servicemessage.receiver = 10')
+ 5 APPPATH\Controllers\messages.php(24): App\Models\messagesModel->getMessages('10')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\messages->getMessages('10')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\messages))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 15:07:12 --> Table 'humanapp.servicemessage' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `servicemessage` (`idService`, `message`, `writer`, `receiver`, `kind`, `created_at`) VALUES (NULL, \'Les quantités se sont déjà épuisés\', \'10\', \'2\', 0, \'2022/12/17 : 1:7:12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `servicemessage` (`idService`, `message`, `writer`, `receiver`, `kind`, `created_at`) VALUES (NULL, \'Les quantités se sont déjà épuisés\', \'10\', \'2\', 0, \'2022/12/17 : 1:7:12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `servicemessage` (`idService`, `message`, `writer`, `receiver`, `kind`, `created_at`) VALUES (NULL, \'Les quantités se sont déjà épuisés\', \'10\', \'2\', 0, \'2022/12/17 : 1:7:12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `servicemessage` (`idService`, `message`, `writer`, `receiver`, `kind`, `created_at`) VALUES (:idService:, :message:, :writer:, :receiver:, :kind:, :created_at:)', [...], false)
+ 5 APPPATH\Models\messagesModel.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\messages.php(57): App\Models\messagesModel->createMsg([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\messages->create()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\messages))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 21:39:14 --> Attempt to read property "id" on null
+in APPPATH\Controllers\User.php on line 246.
+ 1 APPPATH\Controllers\User.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\User.php', 246)
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 21:39:27 --> Attempt to read property "id" on null
+in APPPATH\Controllers\User.php on line 246.
+ 1 APPPATH\Controllers\User.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\User.php', 246)
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\User->editAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 21:41:20 --> Unknown column 'undefined' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 
+		 servicemessage.idService, 
+		 servicemessage.message, 
+		 servicemessage.created_at, 
+		 servicemessage.kind,
+		 firstnameReceiver,
+		 emailReceiver,
+		 firstnameWriter, 
+		 servicemessage.writer,
+		 servicemessage.receiver
+    from servicemessage 
+		LEFT JOIN (
+		 SELECT receiver, 
+		 firstname AS firstnameReceiver, email AS emailReceiver
+		 FROM users, servicemessage WHERE servicemessage.receiver = users.id GROUP BY 1  
+		 ) 
+		 AS users ON users.receiver = servicemessage.receiver
+	 
+		 LEFT JOIN (
+			 SELECT writer, 
+			 firstname AS firstnameWriter, email AS emailWriter
+			 FROM users,servicemessage WHERE servicemessage.writer = users.id GROUP BY 1 
+		 ) 
+		 AS userWriter ON userWriter.writer = servicemessage.writer 
+	 WHERE servicemessage.writer = undefined OR servicemessage.receiver = undefined', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+		 servicemessage.idService, 
+		 servicemessage.message, 
+		 servicemessage.created_at, 
+		 servicemessage.kind,
+		 firstnameReceiver,
+		 emailReceiver,
+		 firstnameWriter, 
+		 servicemessage.writer,
+		 servicemessage.receiver
+    from servicemessage 
+		LEFT JOIN (
+		 SELECT receiver, 
+		 firstname AS firstnameReceiver, email AS emailReceiver
+		 FROM users, servicemessage WHERE servicemessage.receiver = users.id GROUP BY 1  
+		 ) 
+		 AS users ON users.receiver = servicemessage.receiver
+	 
+		 LEFT JOIN (
+			 SELECT writer, 
+			 firstname AS firstnameWriter, email AS emailWriter
+			 FROM users,servicemessage WHERE servicemessage.writer = users.id GROUP BY 1 
+		 ) 
+		 AS userWriter ON userWriter.writer = servicemessage.writer 
+	 WHERE servicemessage.writer = undefined OR servicemessage.receiver = undefined')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+		 servicemessage.idService, 
+		 servicemessage.message, 
+		 servicemessage.created_at, 
+		 servicemessage.kind,
+		 firstnameReceiver,
+		 emailReceiver,
+		 firstnameWriter, 
+		 servicemessage.writer,
+		 servicemessage.receiver
+    from servicemessage 
+		LEFT JOIN (
+		 SELECT receiver, 
+		 firstname AS firstnameReceiver, email AS emailReceiver
+		 FROM users, servicemessage WHERE servicemessage.receiver = users.id GROUP BY 1  
+		 ) 
+		 AS users ON users.receiver = servicemessage.receiver
+	 
+		 LEFT JOIN (
+			 SELECT writer, 
+			 firstname AS firstnameWriter, email AS emailWriter
+			 FROM users,servicemessage WHERE servicemessage.writer = users.id GROUP BY 1 
+		 ) 
+		 AS userWriter ON userWriter.writer = servicemessage.writer 
+	 WHERE servicemessage.writer = undefined OR servicemessage.receiver = undefined')
+ 4 APPPATH\Models\messagesModel.php(46): CodeIgniter\Database\BaseConnection->query('SELECT 
+		 servicemessage.idService, 
+		 servicemessage.message, 
+		 servicemessage.created_at, 
+		 servicemessage.kind,
+		 firstnameReceiver,
+		 emailReceiver,
+		 firstnameWriter, 
+		 servicemessage.writer,
+		 servicemessage.receiver
+    from servicemessage 
+		LEFT JOIN (
+		 SELECT receiver, 
+		 firstname AS firstnameReceiver, email AS emailReceiver
+		 FROM users, servicemessage WHERE servicemessage.receiver = users.id GROUP BY 1  
+		 ) 
+		 AS users ON users.receiver = servicemessage.receiver
+	 
+		 LEFT JOIN (
+			 SELECT writer, 
+			 firstname AS firstnameWriter, email AS emailWriter
+			 FROM users,servicemessage WHERE servicemessage.writer = users.id GROUP BY 1 
+		 ) 
+		 AS userWriter ON userWriter.writer = servicemessage.writer 
+	 WHERE servicemessage.writer = undefined OR servicemessage.receiver = undefined')
+ 5 APPPATH\Controllers\messages.php(24): App\Models\messagesModel->getMessages('undefined')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\messages->getMessages('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\messages))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
